@@ -39,20 +39,19 @@
     "min_image_dim": 48,
     "ytdlp_resolver_endpoints": [
       {
-        "name": "Cobalt JSON Gateway",
-        "type": "cobalt_json",
-        "api_url": "https://api.cobalt.tools/",
-        "fallback_page_url": "https://cobalt.tools/#u={URL}"
+        "name": "Piped Stream JSON",
+        "type": "piped_json",
+        "api_url": "https://pipedapi.kavin.rocks/streams/{VIDEO_ID}"
       },
       {
-        "name": "SSYoutube Direct Web",
-        "type": "web_page",
-        "fallback_page_url": "https://ssyoutube.com/en791/?url={URL}"
+        "name": "Piped Private Coffee JSON",
+        "type": "piped_json",
+        "api_url": "https://api.piped.private.coffee/streams/{VIDEO_ID}"
       },
       {
-        "name": "SaveFrom Web Gateway",
-        "type": "web_page",
-        "fallback_page_url": "https://en1.savefrom.net/#url={URL}"
+        "name": "Invidious Muxed JSON",
+        "type": "invidious_json",
+        "api_url": "https://inv.tux.pizza/api/v1/videos/{VIDEO_ID}"
       }
     ]
   }
