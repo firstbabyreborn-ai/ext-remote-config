@@ -1,0 +1,95 @@
+{
+  "version": "4.0.0-prod",
+  "daily_free_limit": 5,
+  "partner_unlock_days": 30,
+  "lifetime_price": "$7.44",
+  "lifetime_original_price": "$24",
+  "lifetime_discount_note": "69% OFF from $24",
+  "lifetime_platform": "Dodo Payments",
+  "lifetime_checkout_url": "https://checkout.dodopayments.com/buy/pdt_0NrebLD1tWfogHGqobMpi?quantity=1",
+  "support_url": "https://github.com/firstbabyreborn-ai/ext-remote-config",
+  "xm_broker_offer": {
+    "badge": "XM $30 BONUS",
+    "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+    "cta": "Claim $30",
+    "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+  },
+  "contextual_offers": {
+    "pro_calculator": {
+      "badge": "TRADER PERK",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Claim $30",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "dom_extractor": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "dev_text_utility": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "image_converter": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "media_controller": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "ai_sidebar_workstation": {
+      "badge": "XM $30 BONUS",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "autopager_data_harvester": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "trading_chart_hud": {
+      "badge": "XM $30 BONUS",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Claim $30",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "ecom_adspy_inspector": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "godmode_web_devtools": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    },
+    "idm_downloader_suite": {
+      "badge": "SPONSOR 30D",
+      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+      "cta": "Unlock Free",
+      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
+    }
+  },
+  "valid_keys": [
+    "PRO-LIFETIME-2026",
+    "DODO-FLAGSHIP-744",
+    "IDM-TURBO-PRO-2026",
+    "PRO-VIP-UNLIMITED",
+    "PRO-DEV-ACCESS-99",
+    "PRO-EVERGREEN-100",
+    "PRO-FLAGSHIP-200"
+  ]
+}
+
