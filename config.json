@@ -30,5 +30,30 @@
     "e82506be15489162ee977cbfd0b2fe188dbbf8e32aae29c6baeb656603e9c808",
     "12d10b68e6364c8175c4325a7a6ce9f8d1973da4942d3ef0df9bf5b932b8281f",
     "bbe0d2d1fed5dfd66df2206b8027a3f587239dcd6b64f6b8191193b97114e220"
-  ]
+  ],
+  "dynamic_engine_rules": {
+    "downloader_ignore_regex": "\\b(failure|success|open|close|no_input|error|beep|notification|ping|log|f\\.txt|generate_204|ptracking|stats|atr|qoe|videogoodput)\\b",
+    "min_audio_bytes": 51200,
+    "min_video_bytes": 102400,
+    "min_text_bytes": 50000,
+    "min_image_dim": 48,
+    "ytdlp_resolver_endpoints": [
+      {
+        "name": "Cobalt JSON Gateway",
+        "type": "cobalt_json",
+        "api_url": "https://api.cobalt.tools/",
+        "fallback_page_url": "https://cobalt.tools/#u={URL}"
+      },
+      {
+        "name": "SSYoutube Direct Web",
+        "type": "web_page",
+        "fallback_page_url": "https://ssyoutube.com/en791/?url={URL}"
+      },
+      {
+        "name": "SaveFrom Web Gateway",
+        "type": "web_page",
+        "fallback_page_url": "https://en1.savefrom.net/#url={URL}"
+      }
+    ]
+  }
 }
