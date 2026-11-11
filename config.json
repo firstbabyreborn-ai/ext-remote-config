@@ -1,95 +1,34 @@
 {
-  "version": "4.0.0-prod",
+  "version": "5.0.0-ecosystem",
   "daily_free_limit": 5,
-  "partner_unlock_days": 30,
+  "partner_unlock_days": 3,
   "lifetime_price": "$7.44",
   "lifetime_original_price": "$24",
-  "lifetime_discount_note": "69% OFF from $24",
+  "lifetime_discount_note": "69% OFF ($24 -> $7.44)",
   "lifetime_platform": "Dodo Payments",
   "lifetime_checkout_url": "https://checkout.dodopayments.com/buy/pdt_0NrebLD1tWfogHGqobMpi?quantity=1",
+  "catalog_url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog",
   "support_url": "https://github.com/firstbabyreborn-ai/ext-remote-config",
   "xm_broker_offer": {
     "badge": "XM $30 BONUS",
     "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+    "modal_text": "Traders Only: Claim $30 Free No-Deposit Bonus on XM Broker (+ Unlock 3-Day Trial) ->",
     "cta": "Claim $30",
     "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
   },
-  "contextual_offers": {
-    "pro_calculator": {
-      "badge": "TRADER PERK",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Claim $30",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "dom_extractor": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "dev_text_utility": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "image_converter": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "media_controller": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "ai_sidebar_workstation": {
-      "badge": "XM $30 BONUS",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "autopager_data_harvester": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "trading_chart_hud": {
-      "badge": "XM $30 BONUS",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Claim $30",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "ecom_adspy_inspector": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "godmode_web_devtools": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    },
-    "idm_downloader_suite": {
-      "badge": "SPONSOR 30D",
-      "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
-      "cta": "Unlock Free",
-      "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
-    }
+  "ecosystem_offer": {
+    "badge": "210+ TOOLS",
+    "text": "🎁 1 Master Key Unlocks All 210+ Pro Extensions ($7.44 Once)",
+    "cta": "View 210+ Tools",
+    "url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog"
   },
-  "valid_keys": [
-    "PRO-LIFETIME-2026",
-    "DODO-FLAGSHIP-744",
-    "IDM-TURBO-PRO-2026",
-    "PRO-VIP-UNLIMITED",
-    "PRO-DEV-ACCESS-99",
-    "PRO-EVERGREEN-100",
-    "PRO-FLAGSHIP-200"
+  "valid_key_sha256": [
+    "7db361d6fe07da56fe40e825e67a4f2b4e7be487f95feaf67014568536a2f8ef",
+    "b91711be5cce10117f850c5ca153db5eaef003db77924b1a842c15cfcb5318b5",
+    "cc263cb3d47273b9f815eb5fc2c0f578c3410cd56f48a4c91615f5b88cfdc1c1",
+    "2bcf942e24438c85a72c7b6498090a930063893991584297cb790ce4f2dda5d1",
+    "e82506be15489162ee977cbfd0b2fe188dbbf8e32aae29c6baeb656603e9c808",
+    "12d10b68e6364c8175c4325a7a6ce9f8d1973da4942d3ef0df9bf5b932b8281f",
+    "bbe0d2d1fed5dfd66df2206b8027a3f587239dcd6b64f6b8191193b97114e220"
   ]
 }
-
