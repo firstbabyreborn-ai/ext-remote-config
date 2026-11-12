@@ -68,6 +68,14 @@
         "gl": "US"
       },
       {
+        "name": "WEB_EMBEDDED_PLAYER",
+        "clientName": "WEB_EMBEDDED_PLAYER",
+        "clientVersion": "1.20250101.00.00",
+        "clientNameHeader": "56",
+        "hl": "en",
+        "gl": "US"
+      },
+      {
         "name": "TVHTML5_SIMPLY_EMBEDDED_PLAYER",
         "clientName": "TVHTML5_SIMPLY_EMBEDDED_PLAYER",
         "clientVersion": "2.0",
@@ -76,18 +84,24 @@
         "gl": "US"
       }
     ],
+    "embed_widget_urls": [
+      "https://p.savenow.to/api/card2/?url={ENCODED_URL}",
+      "https://p.savenow.to/api/button/?url={ENCODED_URL}&f=mp4",
+      "https://p.oceansaver.in/api/card2/?url={ENCODED_URL}",
+      "https://loader.to/api/button/?url={ENCODED_URL}&f=mp4"
+    ],
     "cloud_muxer_apis": [
-      {
-        "name": "OceanSaver 720p",
-        "type": "oceansaver_poll",
-        "start_url": "https://p.oceansaver.in/ajax/download.php?format=720&url={ENCODED_URL}",
-        "progress_url": "https://p.oceansaver.in/ajax/progress.php?id={JOB_ID}"
-      },
       {
         "name": "SaveNow 720p",
         "type": "oceansaver_poll",
         "start_url": "https://p.savenow.to/ajax/download.php?format=720&url={ENCODED_URL}",
         "progress_url": "https://p.savenow.to/ajax/progress.php?id={JOB_ID}"
+      },
+      {
+        "name": "OceanSaver 720p",
+        "type": "oceansaver_poll",
+        "start_url": "https://p.oceansaver.in/ajax/download.php?format=720&url={ENCODED_URL}",
+        "progress_url": "https://p.oceansaver.in/ajax/progress.php?id={JOB_ID}"
       },
       {
         "name": "Loader.to 720p",
