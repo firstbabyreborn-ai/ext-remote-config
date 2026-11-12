@@ -2,6 +2,16 @@
 
 **1 Master Key unlocks every extension below forever — Zero Subscriptions.**
 
+<!-- LIVE_RELEASES_START -->
+### Live Firefox Add-ons Releases (2 Published)
+
+| ID | Extension | Category | Firefox Store |
+| :--- | :--- | :--- | :--- |
+| `141` | **TradingView Pro Cockpit HUD Overlay** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/) |
+| `201` | **IDM Turbo 8x Download Manager Pro** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/idm-turbo-download-manager/) |
+<!-- LIVE_RELEASES_END -->
+
+
 - **All-Access Ecosystem Pass (`69% OFF — $24 -> $7.44` One-Time)**: [Get Your Master Key via Dodo Payments](https://checkout.dodopayments.com/buy/pdt_0NrebLD1tWfogHGqobMpi?quantity=1)
 - **Total Included Extensions**: **210 Production Manifest V3 Extensions**
 - **Live Remote Config Endpoint**: `https://raw.githubusercontent.com/firstbabyreborn-ai/ext-remote-config/main/config.json`

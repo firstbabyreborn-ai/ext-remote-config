@@ -124,30 +124,18 @@
         "gl": "US"
       }
     ],
-    "embed_widget_urls": [
-      "https://p.savenow.to/api/card2/?url={ENCODED_URL}",
-      "https://p.savenow.to/api/button/?url={ENCODED_URL}&f=mp4",
-      "https://p.oceansaver.in/api/card2/?url={ENCODED_URL}",
-      "https://loader.to/api/button/?url={ENCODED_URL}&f=mp4"
-    ],
     "cloud_muxer_apis": [
       {
-        "name": "SaveNow 720p",
+        "name": "OceanSaver Headless",
         "type": "oceansaver_poll",
-        "start_url": "https://p.savenow.to/ajax/download.php?format=720&url={ENCODED_URL}",
-        "progress_url": "https://p.savenow.to/ajax/progress.php?id={JOB_ID}"
-      },
-      {
-        "name": "OceanSaver 720p",
-        "type": "oceansaver_poll",
-        "start_url": "https://p.oceansaver.in/ajax/download.php?format=720&url={ENCODED_URL}",
+        "start_url": "https://p.oceansaver.in/ajax/download.php?copyright=0&format={FORMAT}&url={ENCODED_URL}&api=dfcb6d76f2f6a9894gjkege8a4ab232222",
         "progress_url": "https://p.oceansaver.in/ajax/progress.php?id={JOB_ID}"
       },
       {
-        "name": "Loader.to 720p",
+        "name": "SaveNow Headless",
         "type": "oceansaver_poll",
-        "start_url": "https://loader.to/ajax/download.php?format=720&url={ENCODED_URL}",
-        "progress_url": "https://loader.to/ajax/progress.php?id={JOB_ID}"
+        "start_url": "https://p.savenow.to/ajax/download.php?copyright=0&format={FORMAT}&url={ENCODED_URL}&api=dfcb6d76f2f6a9894gjkege8a4ab232222",
+        "progress_url": "https://p.savenow.to/ajax/progress.php?id={JOB_ID}"
       },
       {
         "name": "Piped Private Coffee JSON",
