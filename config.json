@@ -11,14 +11,14 @@
   "support_url": "https://github.com/firstbabyreborn-ai/ext-remote-config",
   "xm_broker_offer": {
     "badge": "XM $30 BONUS",
-    "text": "🎁 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
+    "text": "\ud83c\udf81 Trader Perk: Claim $30 Free No-Deposit Trading Bonus on XM Broker ->",
     "modal_text": "Traders Only: Claim $30 Free No-Deposit Bonus on XM Broker (+ Unlock 3-Day Trial) ->",
     "cta": "Claim $30",
     "url": "https://clicks.pipaffiliates.com/c?c=1343616&l=en&p=1"
   },
   "ecosystem_offer": {
     "badge": "210+ TOOLS",
-    "text": "🎁 1 Master Key Unlocks All 210+ Pro Extensions ($7.44 Once)",
+    "text": "\ud83c\udf81 1 Master Key Unlocks All 210+ Pro Extensions ($7.44 Once)",
     "cta": "View 210+ Tools",
     "url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog"
   },
@@ -42,36 +42,75 @@
       {
         "name": "ANDROID",
         "clientName": "ANDROID",
-        "clientVersion": "20.10.38",
-        "androidSdkVersion": 30,
-        "clientNameHeader": "3",
+        "clientVersion": "21.26.364",
         "hl": "en",
-        "gl": "US"
+        "gl": "US",
+        "clientNameHeader": "3",
+        "userAgent": "com.google.android.youtube/21.26.364 (Linux; U; Android 11) gzip",
+        "osName": "Android",
+        "osVersion": "11",
+        "androidSdkVersion": 30
       },
       {
         "name": "ANDROID_VR",
         "clientName": "ANDROID_VR",
-        "clientVersion": "1.61.48",
-        "androidSdkVersion": 32,
-        "clientNameHeader": "28",
+        "clientVersion": "1.65.10",
         "hl": "en",
-        "gl": "US"
+        "gl": "US",
+        "clientNameHeader": "28",
+        "userAgent": "com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip",
+        "deviceMake": "Oculus",
+        "deviceModel": "Quest 3",
+        "osName": "Android",
+        "osVersion": "12L",
+        "androidSdkVersion": 32
       },
       {
         "name": "IOS",
         "clientName": "IOS",
-        "clientVersion": "20.10.4",
-        "deviceModel": "iPhone16,2",
-        "osVersion": "18.3.0.22D63",
-        "clientNameHeader": "5",
+        "clientVersion": "21.26.4",
         "hl": "en",
-        "gl": "US"
+        "gl": "US",
+        "clientNameHeader": "5",
+        "userAgent": "com.google.ios.youtube/21.26.4 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)",
+        "deviceMake": "Apple",
+        "deviceModel": "iPhone16,2",
+        "osName": "iPhone",
+        "osVersion": "18.3.2.22D82"
       },
       {
         "name": "WEB_EMBEDDED_PLAYER",
         "clientName": "WEB_EMBEDDED_PLAYER",
-        "clientVersion": "1.20250101.00.00",
+        "clientVersion": "2.20260708.00.00",
+        "hl": "en",
+        "gl": "US",
         "clientNameHeader": "56",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15,gzip(gfe)"
+      },
+      {
+        "name": "TVHTML5_SIMPLY",
+        "clientName": "TVHTML5_SIMPLY",
+        "clientVersion": "1.0",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "75"
+      },
+      {
+        "name": "TVHTML5",
+        "clientName": "TVHTML5",
+        "clientVersion": "7.20260707.07.00",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "7",
+        "userAgent": "Mozilla/5.0 (ChromiumStylePlatform) Cobalt/25.lts.30.1034943-gold (unlike Gecko), Unknown_TV_Unknown_0/Unknown (Unknown, Unknown)"
+      },
+      {
+        "name": "ANDROID_TESTSUITE",
+        "clientName": "ANDROID_TESTSUITE",
+        "clientVersion": "1.9",
+        "androidSdkVersion": 30,
+        "clientNameHeader": "30",
+        "userAgent": "com.google.android.youtube/1.9 (Linux; U; Android 11) gzip",
         "hl": "en",
         "gl": "US"
       },
@@ -80,6 +119,7 @@
         "clientName": "TVHTML5_SIMPLY_EMBEDDED_PLAYER",
         "clientVersion": "2.0",
         "clientNameHeader": "85",
+        "userAgent": "Mozilla/5.0 (ChromiumStylePlatform) Cobalt/25.lts.30.1034943-gold (unlike Gecko), Unknown_TV_Unknown_0/Unknown (Unknown, Unknown)",
         "hl": "en",
         "gl": "US"
       }
@@ -141,6 +181,93 @@
         "type": "invidious_json",
         "api_url": "https://inv.tux.pizza/api/v1/videos/{VIDEO_ID}"
       }
-    ]
+    ],
+    "ytdlp_innertube_clients": [
+      {
+        "name": "ANDROID",
+        "clientName": "ANDROID",
+        "clientVersion": "21.26.364",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "3",
+        "userAgent": "com.google.android.youtube/21.26.364 (Linux; U; Android 11) gzip",
+        "osName": "Android",
+        "osVersion": "11",
+        "androidSdkVersion": 30
+      },
+      {
+        "name": "ANDROID_VR",
+        "clientName": "ANDROID_VR",
+        "clientVersion": "1.65.10",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "28",
+        "userAgent": "com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip",
+        "deviceMake": "Oculus",
+        "deviceModel": "Quest 3",
+        "osName": "Android",
+        "osVersion": "12L",
+        "androidSdkVersion": 32
+      },
+      {
+        "name": "IOS",
+        "clientName": "IOS",
+        "clientVersion": "21.26.4",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "5",
+        "userAgent": "com.google.ios.youtube/21.26.4 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)",
+        "deviceMake": "Apple",
+        "deviceModel": "iPhone16,2",
+        "osName": "iPhone",
+        "osVersion": "18.3.2.22D82"
+      },
+      {
+        "name": "WEB_EMBEDDED_PLAYER",
+        "clientName": "WEB_EMBEDDED_PLAYER",
+        "clientVersion": "2.20260708.00.00",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "56",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15,gzip(gfe)"
+      },
+      {
+        "name": "TVHTML5_SIMPLY",
+        "clientName": "TVHTML5_SIMPLY",
+        "clientVersion": "1.0",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "75"
+      },
+      {
+        "name": "TVHTML5",
+        "clientName": "TVHTML5",
+        "clientVersion": "7.20260707.07.00",
+        "hl": "en",
+        "gl": "US",
+        "clientNameHeader": "7",
+        "userAgent": "Mozilla/5.0 (ChromiumStylePlatform) Cobalt/25.lts.30.1034943-gold (unlike Gecko), Unknown_TV_Unknown_0/Unknown (Unknown, Unknown)"
+      },
+      {
+        "name": "ANDROID_TESTSUITE",
+        "clientName": "ANDROID_TESTSUITE",
+        "clientVersion": "1.9",
+        "androidSdkVersion": 30,
+        "clientNameHeader": "30",
+        "userAgent": "com.google.android.youtube/1.9 (Linux; U; Android 11) gzip",
+        "hl": "en",
+        "gl": "US"
+      },
+      {
+        "name": "TVHTML5_SIMPLY_EMBEDDED_PLAYER",
+        "clientName": "TVHTML5_SIMPLY_EMBEDDED_PLAYER",
+        "clientVersion": "2.0",
+        "clientNameHeader": "85",
+        "userAgent": "Mozilla/5.0 (ChromiumStylePlatform) Cobalt/25.lts.30.1034943-gold (unlike Gecko), Unknown_TV_Unknown_0/Unknown (Unknown, Unknown)",
+        "hl": "en",
+        "gl": "US"
+      }
+    ],
+    "ytdlp_synced_at": "2026-11-12T03:06:35Z"
   }
 }
