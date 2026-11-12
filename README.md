@@ -3,14 +3,14 @@
 **1 Master Key unlocks every extension below forever — Zero Subscriptions.**
 
 <!-- LIVE_RELEASES_START -->
-### Live Firefox Add-ons Releases (4 Published)
+### Live Multi-Store Releases (4 Firefox / 1 Microsoft Edge)
 
-| ID | Extension | Category | Firefox Store |
-| :--- | :--- | :--- | :--- |
-| `001` | **WebP to PNG Converter Pro** | `Photos` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/webp-to-png-converter/) |
-| `101` | **AI Sidebar Copilot Pro - Instant Summary** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ai-sidebar-copilot-pro/) |
-| `141` | **TradingView Pro Cockpit HUD Overlay** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/) |
-| `201` | **IDM Turbo 8x Download Manager Pro** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/idm-turbo-download-manager/) |
+| ID | Extension | Category | Firefox Store | Microsoft Edge |
+| :--- | :--- | :--- | :--- | :--- |
+| `001` | **WebP to PNG Converter Pro** | `Photos` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/webp-to-png-converter/) | Awaiting Shell |
+| `101` | **AI Sidebar Copilot Pro - Instant Summary** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ai-sidebar-copilot-pro/) | Awaiting Shell |
+| `141` | **TradingView Pro Cockpit HUD Overlay** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/) | [Edge Add-ons (package_uploaded)](https://microsoftedge.microsoft.com/addons/detail/16acbc81-f497-4069-aaa2-859f4cdd1d9e) |
+| `201` | **IDM Turbo 8x Download Manager Pro** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/idm-turbo-download-manager/) | Awaiting Shell |
 <!-- LIVE_RELEASES_END -->
 
 

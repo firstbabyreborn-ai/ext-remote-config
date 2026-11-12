@@ -1,8 +1,9 @@
 {
-  "schema_version": "2.0.0",
-  "updated_at": "2026-11-12T06:11:54.852806+00:00",
+  "schema_version": "2.1.0",
+  "updated_at": "2026-11-12T10:05:35.139604+00:00",
   "total_extensions": 210,
   "live_firefox_count": 4,
+  "live_edge_count": 1,
   "catalog_hub_url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog",
   "extensions": [
     {
@@ -15,8 +16,10 @@
       "category": "Photos",
       "short_description": "Convert WebP images to high quality PNG format instantly inside your browser. Fast, private, and 100% offline.",
       "gecko_id": "webp-to-png-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/webp-to-png-converter/",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "live"
     },
     {
@@ -29,8 +32,10 @@
       "category": "Photos",
       "short_description": "Compress and convert heavy PNG files to lightweight JPG images with custom quality controls. 100% client-side.",
       "gecko_id": "png-to-jpg-compressor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -43,8 +48,10 @@
       "category": "Developer Tools",
       "short_description": "Generate multi-size Windows ICO and website favicons from PNG, JPG, or SVG instantly without server uploads.",
       "gecko_id": "image-to-ico-favicon-maker@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -57,8 +64,10 @@
       "category": "Privacy",
       "short_description": "Strip hidden GPS location, camera model, and personal EXIF data from photos before sharing online.",
       "gecko_id": "exif-metadata-stripper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -71,8 +80,10 @@
       "category": "Photos",
       "short_description": "Resize photos and graphics by exact pixel dimensions or aspect ratio with high quality canvas interpolation.",
       "gecko_id": "bulk-image-resizer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -85,8 +96,10 @@
       "category": "Developer Tools",
       "short_description": "Speed up websites by converting JPG and JPEG photos to ultra-compact WebP format right in your browser.",
       "gecko_id": "jpg-to-webp-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -99,8 +112,10 @@
       "category": "Developer Tools",
       "short_description": "Encode images directly into Base64 Data URI strings for HTML, CSS backgrounds, and inline email graphics.",
       "gecko_id": "image-to-base64-uri@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -113,8 +128,10 @@
       "category": "Photos",
       "short_description": "Compress PNG assets to minimum byte sizes without losing a single pixel of visual clarity or transparency.",
       "gecko_id": "lossless-png-optimizer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -127,8 +144,10 @@
       "category": "Photos",
       "short_description": "Convert legacy uncompressed BMP bitmap images into modern, compressed PNG files with full transparency.",
       "gecko_id": "bmp-to-png-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -141,8 +160,10 @@
       "category": "Photos",
       "short_description": "Convert downloaded WebP pictures back into universally compatible JPG format for older editors and software.",
       "gecko_id": "webp-to-jpg-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -155,8 +176,10 @@
       "category": "Photos",
       "short_description": "Scale and format pictures perfectly for Instagram squares, stories, Twitter headers, and YouTube thumbnails.",
       "gecko_id": "social-media-image-scaler@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -169,8 +192,10 @@
       "category": "Photos",
       "short_description": "Instant 1:1 square profile picture resizer and circle-friendly scaler for Discord, Slack, and LinkedIn.",
       "gecko_id": "avatar-profile-cropper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -183,8 +208,10 @@
       "category": "Productivity",
       "short_description": "Compress bulky desktop screenshots and strip device metadata before uploading to Slack, Jira, or email.",
       "gecko_id": "screenshot-cleaner-compressor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -197,8 +224,10 @@
       "category": "Productivity",
       "short_description": "Format and optimize clean white-background product catalog images for Shopify, Amazon, and eBay stores.",
       "gecko_id": "ecommerce-product-image-scaler@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -211,8 +240,10 @@
       "category": "Photos",
       "short_description": "Smoothly downscale 4K and 8K camera photos to crisp web-friendly resolutions without pixel artifacts.",
       "gecko_id": "high-res-canvas-downscaler@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -225,8 +256,10 @@
       "category": "Privacy",
       "short_description": "Convert and process images locally in your browser with zero server uploads and complete privacy protection.",
       "gecko_id": "offline-safe-image-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -239,8 +272,10 @@
       "category": "Developer Tools",
       "short_description": "Convert PNG and WebP graphics to uncompressed standard Windows BMP format for embedded devices and games.",
       "gecko_id": "png-to-bmp-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -253,8 +288,10 @@
       "category": "Photos",
       "short_description": "Convert JPG photos into lossless PNG format with crisp borders, ready for graphic design and compositing.",
       "gecko_id": "jpg-to-png-transparency@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -267,8 +304,10 @@
       "category": "Developer Tools",
       "short_description": "Fine-tune WebP quality and compression levels with instant client-side preview for web designers.",
       "gecko_id": "webp-compression-master@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -281,8 +320,10 @@
       "category": "Photos",
       "short_description": "Standardize irregular photo heights and widths into uniform presentation dimensions in seconds.",
       "gecko_id": "photo-dimension-normalizer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -295,8 +336,10 @@
       "category": "Productivity",
       "short_description": "Speed up or slow down any HTML5 video from 0.1x to 16x with fine-grain step buttons and keyboard shortcuts.",
       "gecko_id": "video-speed-controller-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -309,8 +352,10 @@
       "category": "Productivity",
       "short_description": "Boost quiet videos and browser tab audio up to 600% using Web Audio API Gain nodes without distortion.",
       "gecko_id": "volume-booster-600@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -323,8 +368,10 @@
       "category": "Photos",
       "short_description": "Capture pristine full-resolution PNG screenshots from any playing video with a single click.",
       "gecko_id": "video-screenshot-frame-grabber@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -337,8 +384,10 @@
       "category": "Productivity",
       "short_description": "Loop specific video sections seamlessly for dance tutorials, music practice, sports analysis, and study sessions.",
       "gecko_id": "ab-loop-video-repeater@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -351,8 +400,10 @@
       "category": "Productivity",
       "short_description": "Enhance deep bass frequencies and crisp trebles on YouTube, Spotify web, and Netflix with real-time EQ.",
       "gecko_id": "bass-booster-equalizer-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -365,8 +416,10 @@
       "category": "Productivity",
       "short_description": "Listen to lectures and podcasts at 1.5x, 2x, or 3x speed with pitch preservation to save hours every week.",
       "gecko_id": "podcast-speed-master@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -379,8 +432,10 @@
       "category": "Productivity",
       "short_description": "Pop out any online video into a floating always-on-top Picture-in-Picture window for effortless multitasking.",
       "gecko_id": "picture-in-picture-master@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -393,8 +448,10 @@
       "category": "Productivity",
       "short_description": "Compress audio dynamic range so quiet dialogue is louder and sudden loud explosions are safely dampened.",
       "gecko_id": "night-mode-audio-leveler@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -407,8 +464,10 @@
       "category": "Productivity",
       "short_description": "Analyze sports form, gaming trickshots, and animation details in crisp 0.25x or 0.5x slow motion.",
       "gecko_id": "slow-motion-video-player@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -421,8 +480,10 @@
       "category": "Productivity",
       "short_description": "Filter out background rumble and boost human speech frequencies so video lectures and tutorials are crystal clear.",
       "gecko_id": "treble-voice-clarity-booster@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -435,8 +496,10 @@
       "category": "Productivity",
       "short_description": "Skim through surveillance footage, recorded webinars, and timelapses at up to 16x playback speed.",
       "gecko_id": "ultra-fast-video-speeder@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -449,8 +512,10 @@
       "category": "Productivity",
       "short_description": "Gain full playback speed control and extra volume boost on popular streaming video websites.",
       "gecko_id": "netflix-speed-controller@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -463,8 +528,10 @@
       "category": "Productivity",
       "short_description": "Set A-B video loop intervals and exact playback speed increments on any YouTube video.",
       "gecko_id": "youtube-loop-and-speed@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -477,8 +544,10 @@
       "category": "Productivity",
       "short_description": "Pumps low-end bass frequencies for EDM, hip hop, and cinematic movie scores directly through your headphones.",
       "gecko_id": "extreme-bass-subwoofer-boost@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -491,8 +560,10 @@
       "category": "Productivity",
       "short_description": "Safe, distortion-managed audio amplifier providing clean volume boosts across all browser tabs.",
       "gecko_id": "web-audio-gain-enhancer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -505,8 +576,10 @@
       "category": "Productivity",
       "short_description": "Master complex coding tutorials and mathematical proofs by auto-looping key explanation segments.",
       "gecko_id": "study-video-ab-looper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -519,8 +592,10 @@
       "category": "Productivity",
       "short_description": "Slow down guitar riffs and piano solos to 50% speed while looping the bar until you play it perfectly.",
       "gecko_id": "music-practice-speed-looper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -533,8 +608,10 @@
       "category": "Productivity",
       "short_description": "Single-click volume booster for Google Meet, Zoom web, and low-volume streams up to 600%.",
       "gecko_id": "universal-tab-sound-booster@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -547,8 +624,10 @@
       "category": "Photos",
       "short_description": "Capture exact video frames at original camera resolution without UI bars or compression artifacts.",
       "gecko_id": "high-res-video-snap-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -561,8 +640,10 @@
       "category": "Productivity",
       "short_description": "All-in-one media controller: 16x speed scaling, 600% volume amplification, frame grabber, and A-B looper.",
       "gecko_id": "speed-and-sound-universal@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -575,8 +656,10 @@
       "category": "Productivity",
       "short_description": "Convert and export any webpage HTML table directly into formatted CSV or Excel files with one click.",
       "gecko_id": "html-table-to-csv-exporter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -589,8 +672,10 @@
       "category": "Productivity",
       "short_description": "Instantly find and extract all email addresses and contact links from the current webpage into clean CSV lists.",
       "gecko_id": "email-lead-harvester-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -603,8 +688,10 @@
       "category": "Developer Tools",
       "short_description": "Extract all image URLs, dimensions, and alt text tags from any page for easy bulk download and asset auditing.",
       "gecko_id": "bulk-image-url-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -617,8 +704,10 @@
       "category": "Developer Tools",
       "short_description": "Scan all internal and external hyperlinks on a webpage to identify dead anchors and audit site navigation.",
       "gecko_id": "broken-link-anchor-checker@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -631,8 +720,10 @@
       "category": "Developer Tools",
       "short_description": "Audit title, description, canonical link, OpenGraph social cards, and heading hierarchy in real time.",
       "gecko_id": "seo-meta-tag-inspector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -645,8 +736,10 @@
       "category": "Developer Tools",
       "short_description": "Scrape structured web tables directly into clean JSON arrays for developers, APIs, and data analysts.",
       "gecko_id": "webpage-table-to-json@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -659,8 +752,10 @@
       "category": "Productivity",
       "short_description": "Extract all Twitter, LinkedIn, Instagram, and YouTube profile links found across website contact pages.",
       "gecko_id": "social-link-handle-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -673,8 +768,10 @@
       "category": "Developer Tools",
       "short_description": "Inspect H1 through H6 heading hierarchy on any article or landing page to fix SEO accessibility issues.",
       "gecko_id": "heading-outline-hierarchy-audit@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -687,8 +784,10 @@
       "category": "Developer Tools",
       "short_description": "Detect & export direct MP4, MP3, WebM, PDF, and M3U8 media stream links rendered on the active tab.",
       "gecko_id": "media-asset-url-collector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -701,8 +800,10 @@
       "category": "Productivity",
       "short_description": "Quickly extract emails, mailto links, and outbound communication channels from directory websites.",
       "gecko_id": "contact-page-info-extractor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -715,8 +816,10 @@
       "category": "Productivity",
       "short_description": "Export product specifications, comparison charts, and price tables directly to spreadsheet formats.",
       "gecko_id": "shopify-product-table-exporter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -729,8 +832,10 @@
       "category": "Developer Tools",
       "short_description": "Verify canonical links, noindex directives, and robots meta tags to prevent SEO indexing disasters.",
       "gecko_id": "canonical-robots-tag-auditor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -743,8 +848,10 @@
       "category": "Productivity",
       "short_description": "Inspect competitor landing page titles, meta descriptions, and social preview cards instantly.",
       "gecko_id": "competitor-seo-meta-spy@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -757,8 +864,10 @@
       "category": "Productivity",
       "short_description": "Export Wikipedia data matrices, country lists, and sports stats tables straight into Google Sheets CSV format.",
       "gecko_id": "wikipedia-table-to-sheets@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -771,8 +880,10 @@
       "category": "Photos",
       "short_description": "Filter and extract high resolution image links, ignoring small icons and tracker pixels.",
       "gecko_id": "high-res-image-src-collector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -785,8 +896,10 @@
       "category": "Developer Tools",
       "short_description": "Sort page links by internal domain vs external outbound references with anchor text verification.",
       "gecko_id": "internal-external-link-auditor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -799,8 +912,10 @@
       "category": "Developer Tools",
       "short_description": "Preview how your blog post or article will render when shared on Twitter/X, Facebook, and LinkedIn.",
       "gecko_id": "twitter-card-social-preview@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -813,8 +928,10 @@
       "category": "Productivity",
       "short_description": "Scan resumes, contact pages, and vendor lists for valid RFC-compliant email addresses instantly.",
       "gecko_id": "fast-page-email-detector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -827,8 +944,10 @@
       "category": "Productivity",
       "short_description": "One-click copy and download for financial data grids, census records, and public database tables.",
       "gecko_id": "data-grid-to-spreadsheet@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -841,8 +960,10 @@
       "category": "Developer Tools",
       "short_description": "Comprehensive page data harvester: extract tables to CSV, find emails, collect image assets, and audit SEO tags.",
       "gecko_id": "universal-dom-harvester-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -855,8 +976,10 @@
       "category": "Productivity",
       "short_description": "Calculate exact lot sizes and dollar risk per pip for Gold (XAU/USD) based on your account size and stop loss.",
       "gecko_id": "gold-xauusd-lot-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -869,8 +992,10 @@
       "category": "Productivity",
       "short_description": "Calculate exact liquidation prices, margin requirements, ROE %, and net profit/loss for leveraged crypto trades.",
       "gecko_id": "crypto-futures-liquidation-calc@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -883,8 +1008,10 @@
       "category": "Productivity",
       "short_description": "Track FTMO and prop-firm daily drawdown limits and max trailing loss buffer to keep your funded account safe.",
       "gecko_id": "prop-firm-drawdown-tracker@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -897,8 +1024,10 @@
       "category": "Productivity",
       "short_description": "Calculate net profit margins and real payment processing fee deductions (Stripe, PayPal) for SaaS founders.",
       "gecko_id": "saas-mrr-stripe-fee-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -911,8 +1040,10 @@
       "category": "Productivity",
       "short_description": "Project long term compound interest returns, recurring monthly deposits, and investment wealth growth curves.",
       "gecko_id": "compound-growth-wealth-projector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -925,8 +1056,10 @@
       "category": "Productivity",
       "short_description": "Calculate standard, mini, and micro forex lot sizes with strict 1% risk rules across major and minor currency pairs.",
       "gecko_id": "forex-pip-value-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -939,8 +1072,10 @@
       "category": "Productivity",
       "short_description": "Simulate BTC futures leverage from 5x to 100x with exact stop loss risk, liquidation threshold, and ROE target.",
       "gecko_id": "bitcoin-futures-leverage-calc@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -953,8 +1088,10 @@
       "category": "Productivity",
       "short_description": "Protect your funded prop-firm account with automatic lot size caps and daily loss limit enforcement.",
       "gecko_id": "ftmo-trader-risk-manager@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -967,8 +1104,10 @@
       "category": "Productivity",
       "short_description": "Compare processing fees between Stripe, PayPal, and merchant processors to maximize your net revenue.",
       "gecko_id": "payment-gateway-fee-comparator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -981,8 +1120,10 @@
       "category": "Productivity",
       "short_description": "Calculate dividend reinvestment snowball growth (DRIP) and recurring passive income over 5, 10, and 20 years.",
       "gecko_id": "dividend-reinvestment-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -995,8 +1136,10 @@
       "category": "Productivity",
       "short_description": "Calculate exact number of stock shares to buy with a predetermined maximum dollar loss per trade.",
       "gecko_id": "stock-position-size-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1009,8 +1152,10 @@
       "category": "Productivity",
       "short_description": "Dedicated shorting risk calculator for crypto bear markets with upside liquidation warnings and margin safety.",
       "gecko_id": "crypto-short-position-pnl@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1023,8 +1168,10 @@
       "category": "Productivity",
       "short_description": "Calculate remaining profit target distance and drawdown safety cushion for Phase 1 and Phase 2 prop challenges.",
       "gecko_id": "prop-firm-buffer-guard@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1037,8 +1184,10 @@
       "category": "Productivity",
       "short_description": "Model customer churn, server costs, and merchant fees to find true net cash flow and recurring profit margins.",
       "gecko_id": "saas-subscription-churn-pnl@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1051,8 +1200,10 @@
       "category": "Productivity",
       "short_description": "Calculate your Financial Independence Retire Early (FIRE) number with compound interest projections.",
       "gecko_id": "fire-retirement-wealth-calc@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1065,8 +1216,10 @@
       "category": "Productivity",
       "short_description": "Fast lot size calculator tailored specifically for high frequency Gold scalpers using 10-30 pip tight stop losses.",
       "gecko_id": "xauusd-gold-scalper-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1079,8 +1232,10 @@
       "category": "Productivity",
       "short_description": "Instant safety calculations for 20x to 50x crypto leverage trades to prevent premature account liquidation.",
       "gecko_id": "high-leverage-crypto-manager@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1093,8 +1248,10 @@
       "category": "Productivity",
       "short_description": "Calculate 1:2, 1:3, and 1:5 risk-to-reward targets with position sizing to ensure positive expectancy trading.",
       "gecko_id": "trading-risk-reward-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1107,8 +1264,10 @@
       "category": "Productivity",
       "short_description": "Calculate true take-home profit on online orders after deducting payment processing, ad costs, and COGS.",
       "gecko_id": "ecommerce-net-profit-calc@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1121,8 +1280,10 @@
       "category": "Productivity",
       "short_description": "All-in-one trader and founder suite: Gold & Forex lot sizing, Crypto futures liquidation, and SaaS margin math.",
       "gecko_id": "universal-financial-calculator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1135,8 +1296,10 @@
       "category": "Developer Tools",
       "short_description": "Convert complex JSON objects and nested arrays into clean CSV spreadsheets offline without sending data anywhere.",
       "gecko_id": "json-to-csv-converter-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1149,8 +1312,10 @@
       "category": "Developer Tools",
       "short_description": "Decode and inspect JSON Web Tokens (JWT) payload, header claims, and expiration timestamps locally in your browser.",
       "gecko_id": "jwt-token-debugger-decoder@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1163,8 +1328,10 @@
       "category": "Developer Tools",
       "short_description": "Encode and decode Base64 and URL-encoded strings safely with full Unicode, Emoji, and international character support.",
       "gecko_id": "utf8-base64-url-encoder@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1177,8 +1344,10 @@
       "category": "Developer Tools",
       "short_description": "Test and debug regular expressions with live match highlights, capture groups, and global/multiline flags.",
       "gecko_id": "regex-tester-pattern-matcher@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1191,8 +1360,10 @@
       "category": "Developer Tools",
       "short_description": "Format unreadable minified JSON into beautiful indented structures or minify large JSON files for production APIs.",
       "gecko_id": "json-beautifier-and-minifier@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1205,8 +1376,10 @@
       "category": "Developer Tools",
       "short_description": "Clean up and format messy SQL queries with standardized keyword capitalization and clean indentation.",
       "gecko_id": "sql-query-formatter-beautifier@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1219,8 +1392,10 @@
       "category": "Productivity",
       "short_description": "Instant live word count, character count, sentence count, and estimated reading/speaking time for writers.",
       "gecko_id": "word-character-reading-counter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1233,8 +1408,10 @@
       "category": "Developer Tools",
       "short_description": "Parse spreadsheet CSV exports into structured JSON arrays in milliseconds with zero server upload.",
       "gecko_id": "csv-to-json-instant-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1247,8 +1424,10 @@
       "category": "Developer Tools",
       "short_description": "Verify token expiration dates (exp, iat, nbf) and inspect user roles securely without leaking keys online.",
       "gecko_id": "offline-jwt-claim-inspector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1261,8 +1440,10 @@
       "category": "Developer Tools",
       "short_description": "Encode or decode complex query strings, special percent characters (%20, %2F), and deep link parameters.",
       "gecko_id": "url-encode-decode-utility@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1275,8 +1456,10 @@
       "category": "Developer Tools",
       "short_description": "Extract phone numbers, UUIDs, dates, and custom regex pattern matches from massive walls of text.",
       "gecko_id": "regex-pattern-extractor-tool@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1289,8 +1472,10 @@
       "category": "Developer Tools",
       "short_description": "Strip unnecessary whitespace, newlines, and indentation from JSON payloads to reduce HTTP request sizes.",
       "gecko_id": "fast-json-minifier-for-apis@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1303,8 +1488,10 @@
       "category": "Productivity",
       "short_description": "Calculate exact reading and speaking duration for blog posts, medium articles, and presentation speeches.",
       "gecko_id": "article-reading-time-estimator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1317,8 +1504,10 @@
       "category": "Developer Tools",
       "short_description": "Encode passwords, API secrets, and raw text to Base64 and back with one-click clipboard copy.",
       "gecko_id": "clean-base64-text-converter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1331,8 +1520,10 @@
       "category": "Developer Tools",
       "short_description": "Instantly format PostgreSQL, MySQL, and SQLite queries into clean readable multi-line structures.",
       "gecko_id": "clean-sql-formatter-offline@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1345,8 +1536,10 @@
       "category": "Productivity",
       "short_description": "Keep essays and social media posts strictly within word count constraints with real-time character metrics.",
       "gecko_id": "essay-word-character-auditor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1359,8 +1552,10 @@
       "category": "Developer Tools",
       "short_description": "Inspect Auth0, Supabase, and Firebase JWT tokens in real time to debug session claims and expired tokens.",
       "gecko_id": "developer-jwt-auth-decoder@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1373,8 +1568,10 @@
       "category": "Developer Tools",
       "short_description": "Convert CSV table data into typed JSON arrays for database seeding, automated testing, and mock servers.",
       "gecko_id": "csv-matrix-to-json-array@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1387,8 +1584,10 @@
       "category": "Developer Tools",
       "short_description": "Validate regular expressions with syntax error reporting, group match indexing, and character escapes.",
       "gecko_id": "regex-syntax-and-flag-tester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1401,8 +1600,10 @@
       "category": "Developer Tools",
       "short_description": "All-in-one developer toolbox: JSON to CSV, JWT decoder, Base64/URL encoder, Regex tester, and SQL formatter.",
       "gecko_id": "universal-developer-swiss-knife@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1415,8 +1616,10 @@
       "category": "Productivity",
       "short_description": "Floating AI selection toolbar & sidebar for summaries, rewrites, actions & BYOK GPT/Gemini.",
       "gecko_id": "ai-sidebar-copilot-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/ai-sidebar-copilot-pro/",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "live"
     },
     {
@@ -1429,8 +1632,10 @@
       "category": "Productivity",
       "short_description": "Shadow-DOM AI page workstation extracting readability scores, JSON briefs & instant action items.",
       "gecko_id": "harpa-web-automation-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1443,8 +1648,10 @@
       "category": "Productivity",
       "short_description": "Highlight any email thread to draft executive replies, adjust tone & pull key next steps fast.",
       "gecko_id": "compose-ai-email-drafter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1457,8 +1664,10 @@
       "category": "Productivity",
       "short_description": "Select any webpage paragraph to generate instant TL;DR executive bullets offline or via BYOK.",
       "gecko_id": "highlight-text-summarizer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1471,8 +1680,10 @@
       "category": "Productivity",
       "short_description": "Rewrite drafts into Executive, Concise, Casual, or Persuasive voices directly in your tab HUD.",
       "gecko_id": "tone-rewriter-sidebar-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1485,8 +1696,10 @@
       "category": "Productivity",
       "short_description": "Turn long transcripts & threads into structured checklist action items with deadlines locally.",
       "gecko_id": "meeting-action-extractor-ai@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1499,8 +1712,10 @@
       "category": "Productivity",
       "short_description": "Highlight JavaScript, Python, or SQL snippets to decode async flows & architecture cleanly.",
       "gecko_id": "instant-code-explainer-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1513,8 +1728,10 @@
       "category": "Productivity",
       "short_description": "Instant floating bar & sidebar translation assistant with optional Gemini/Groq/OpenAI BYOK.",
       "gecko_id": "multilingual-gloss-sidebar@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1527,8 +1744,10 @@
       "category": "Productivity",
       "short_description": "Analyze Flesch reading ease, word count, read time & top keyword density as structured JSON.",
       "gecko_id": "article-readability-auditor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1541,8 +1760,10 @@
       "category": "Productivity",
       "short_description": "Extract structured study takeaways, key concepts & concise briefs without switching browser tabs.",
       "gecko_id": "youtube-notes-copilot-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1555,8 +1776,10 @@
       "category": "Productivity",
       "short_description": "Bring your own Gemini, Groq, or OpenAI key inside an aesthetic Shadow-DOM sidebar.",
       "gecko_id": "byok-gemini-groq-sidebar@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1569,8 +1792,10 @@
       "category": "Productivity",
       "short_description": "Craft high-converting outreach replies from prospect bios using instant tone presets & local AI.",
       "gecko_id": "sales-cold-email-composer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1583,8 +1808,10 @@
       "category": "Productivity",
       "short_description": "Convert long-form articles & docs into clean executive summaries with keyword density stats.",
       "gecko_id": "pdf-web-brief-generator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1597,8 +1824,10 @@
       "category": "Productivity",
       "short_description": "Audit competitor articles for Flesch score, keyword share & JSON topic structure instantly.",
       "gecko_id": "seo-content-brief-copilot@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1611,8 +1840,10 @@
       "category": "Productivity",
       "short_description": "Strip filler words and elevate clarity across forms, posts & emails using floating selection HUD.",
       "gecko_id": "grammar-clarity-polisher-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1625,8 +1856,10 @@
       "category": "Productivity",
       "short_description": "Select any code block on docs or repos for instant complexity, symbol & async explanations.",
       "gecko_id": "github-code-snippet-tutor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1639,8 +1872,10 @@
       "category": "Productivity",
       "short_description": "Extract core findings, readability metrics & structured JSON summaries from web papers.",
       "gecko_id": "research-citation-summarizer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1653,8 +1888,10 @@
       "category": "Productivity",
       "short_description": "Highlight customer tickets to draft calm, actionable responses with 1 click inside any helpdesk.",
       "gecko_id": "customer-support-reply-ai@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1667,8 +1904,10 @@
       "category": "Productivity",
       "short_description": "Transform rough drafts into punchy persuasive posts via an always-ready Alt+Shift+E sidebar.",
       "gecko_id": "linkedin-post-rewriter-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1681,8 +1920,10 @@
       "category": "Productivity",
       "short_description": "All-in-one Monica & HARPA workstation: highlight toolbar, prompt library, page JSON & BYOK.",
       "gecko_id": "universal-ai-page-studio@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1695,8 +1936,10 @@
       "category": "Developer Tools",
       "short_description": "Green-box repeating list detector, auto Next-page pagination crawler & CSV/JSON/Excel export.",
       "gecko_id": "instant-autopager-scraper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1709,8 +1952,10 @@
       "category": "Developer Tools",
       "short_description": "Auto-scroll business directories, detect repeating cards & extract phones, emails and URLs.",
       "gecko_id": "google-maps-lead-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1723,8 +1968,10 @@
       "category": "Developer Tools",
       "short_description": "Automatically scroll social feeds & catalogs with configurable delay into deduplicated CSV.",
       "gecko_id": "infinite-scroll-web-scraper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1737,8 +1984,10 @@
       "category": "Developer Tools",
       "short_description": "Harvest verified-format emails, international phone numbers & social handles across multi-page sites.",
       "gecko_id": "rfc5322-email-phone-miner@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1751,8 +2000,10 @@
       "category": "Developer Tools",
       "short_description": "Detect product cards with green box highlights, paginate automatically & copy Excel TSV.",
       "gecko_id": "ecommerce-catalog-paginator@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1765,8 +2016,10 @@
       "category": "Developer Tools",
       "short_description": "Collect multi-page job titles, links & snippets into clean deduplicated JSON or spreadsheet.",
       "gecko_id": "job-board-listing-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1779,8 +2032,10 @@
       "category": "Developer Tools",
       "short_description": "Outline repeating property listings in green, crawl pages & export prices cleanly to CSV.",
       "gecko_id": "real-estate-grid-scraper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1793,8 +2048,10 @@
       "category": "Developer Tools",
       "short_description": "Auto-detect structured web tables, advance pagination links & export deduplicated CSV/JSON.",
       "gecko_id": "table-data-miner-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1807,8 +2064,10 @@
       "category": "Developer Tools",
       "short_description": "Cycle detected card patterns, scrape company profiles & extract LinkedIn/email contacts fast.",
       "gecko_id": "b2b-directory-prospect-bot@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1821,8 +2080,10 @@
       "category": "Developer Tools",
       "short_description": "Collect LinkedIn, X, Instagram, GitHub & email leads across infinite feeds with zero duplicates.",
       "gecko_id": "social-profile-url-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1835,8 +2096,10 @@
       "category": "Developer Tools",
       "short_description": "One-click repeating listing outline, multi-page crawl & instant Google Sheets TSV export.",
       "gecko_id": "yellowpages-local-lead-tool@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1849,8 +2112,10 @@
       "category": "Developer Tools",
       "short_description": "Extract titles, URLs & snippets across paginated result pages into structured CSV or JSON.",
       "gecko_id": "search-results-serp-scraper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1863,8 +2128,10 @@
       "category": "Developer Tools",
       "short_description": "Shadow-DOM sidebar crawler with live deduplicated table preview & configurable crawl delay.",
       "gecko_id": "bardeen-style-list-crawler@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1877,8 +2144,10 @@
       "category": "Developer Tools",
       "short_description": "Highlight catalog cards, auto-paginate competitor stores & export clean price comparisons.",
       "gecko_id": "marketplace-seller-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1891,8 +2160,10 @@
       "category": "Developer Tools",
       "short_description": "Detect speaker grids & conference tables on event pages and export contacts in 1 click.",
       "gecko_id": "conference-attendee-scraper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1905,8 +2176,10 @@
       "category": "Developer Tools",
       "short_description": "Auto-scroll threads cleanly, deduplicate entries & save clean JSON archives for research.",
       "gecko_id": "forum-thread-list-extractor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1919,8 +2192,10 @@
       "category": "Developer Tools",
       "short_description": "Harvest multi-page academic lists, titles & paper links into Excel TSV or CSV format.",
       "gecko_id": "scholar-citation-table-miner@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1933,8 +2208,10 @@
       "category": "Developer Tools",
       "short_description": "Outline directory grids, extract founder domains & emails and download deduplicated CSV.",
       "gecko_id": "saas-directory-data-miner@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1947,8 +2224,10 @@
       "category": "Developer Tools",
       "short_description": "Crawl paginated team & contact directories to gather RFC-5322 emails and phone numbers.",
       "gecko_id": "contact-finder-autopager@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1961,8 +2240,10 @@
       "category": "Developer Tools",
       "short_description": "Flagship Instant Data Scraper workstation: green list boxes, auto-pagination & Excel TSV.",
       "gecko_id": "universal-web-data-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -1975,8 +2256,10 @@
       "category": "Productivity",
       "short_description": "Draggable chart HUD with MTF dominance scanner, 1:1.5 vs 1:2 RR & XAU/USD Prop DD guard.",
       "gecko_id": "tradingview-cockpit-hud-pro@amritraj-prosuite.dev",
+      "edge_product_id": "16acbc81-f497-4069-aaa2-859f4cdd1d9e",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/",
-      "edge_url": "",
+      "edge_url": "https://microsoftedge.microsoft.com/addons/detail/16acbc81-f497-4069-aaa2-859f4cdd1d9e",
+      "edge_status": "package_uploaded",
       "status": "live"
     },
     {
@@ -1989,8 +2272,10 @@
       "category": "Productivity",
       "short_description": "Float an XAU/USD lot calculator, daily drawdown guard & 1:2 RR simulator over live charts.",
       "gecko_id": "gold-xauusd-chart-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2003,8 +2288,10 @@
       "category": "Productivity",
       "short_description": "Monitor remaining 1R risk bullets & daily max loss live directly on TradingView or cTrader.",
       "gecko_id": "prop-firm-drawdown-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2017,8 +2304,10 @@
       "category": "Productivity",
       "short_description": "Score multi-timeframe alignment, engulfing dominance candles & liquidity sweeps on any chart.",
       "gecko_id": "mtf-dominance-candle-scanner@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2031,8 +2320,10 @@
       "category": "Productivity",
       "short_description": "Compare breakeven win-rates, profit factors & dollar equity between 1:1.5 and 1:2 RR setups.",
       "gecko_id": "rr-expectancy-simulator-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2045,8 +2336,10 @@
       "category": "Productivity",
       "short_description": "Validate M-top & W-bottom necklines alongside 15m/1h/4h confluence before clicking buy/sell.",
       "gecko_id": "double-top-bottom-hud-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2059,8 +2352,10 @@
       "category": "Productivity",
       "short_description": "Floating BTC/USDT position sizer, RR expectancy simulator & setup confluence cockpit on charts.",
       "gecko_id": "binance-perp-cockpit-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2073,8 +2368,10 @@
       "category": "Productivity",
       "short_description": "Instant floating pip value & lot sizing cockpit for EUR/USD, GBP/JPY & major pairs on charts.",
       "gecko_id": "forex-pip-lot-overlay-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2087,8 +2384,10 @@
       "category": "Productivity",
       "short_description": "Calculate exact index point lot sizing, 1:1.5/1:2 targets & prop drawdown while charting.",
       "gecko_id": "nas100-us30-scalper-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2101,8 +2400,10 @@
       "category": "Productivity",
       "short_description": "Protect funded challenges with live 1R bullet tracking, MTF score & XM $30 trader perk CTA.",
       "gecko_id": "ftmo-funded-trader-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2115,8 +2416,10 @@
       "category": "Productivity",
       "short_description": "Draggable Shadow-DOM trading cockpit calibrated for GBP/JPY volatility, MTF bias & RR targets.",
       "gecko_id": "gbpjpy-london-session-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2129,8 +2432,10 @@
       "category": "Productivity",
       "short_description": "Structured 15m/1h/4h liquidity sweep confluence grader anchored over TradingView charts.",
       "gecko_id": "liquidity-sweep-checklist@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2143,8 +2448,10 @@
       "category": "Productivity",
       "short_description": "Test win-rate vs 1:1.5 & 1:2 RR projections right inside a draggable chart overlay.",
       "gecko_id": "winrate-expectancy-overlay@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2157,8 +2464,10 @@
       "category": "Productivity",
       "short_description": "Non-intrusive floating cockpit for BTC/USDT risk sizing, MTF scoring & profit targets.",
       "gecko_id": "bybit-crypto-futures-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2171,8 +2480,10 @@
       "category": "Productivity",
       "short_description": "Score dominance displacement, HTF bias & neckline reversals before entering a trade.",
       "gecko_id": "smc-orderblock-checklist-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2185,8 +2496,10 @@
       "category": "Productivity",
       "short_description": "Draggable chart sizer calculating lots, TP1 1:1.5 & TP2 1:2 in real time over web charts.",
       "gecko_id": "scalp-position-sizer-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2199,8 +2512,10 @@
       "category": "Productivity",
       "short_description": "Evaluate 4h/1h swing setups, drawdown buffers & multi-trade expectancy directly on charts.",
       "gecko_id": "swing-trader-rr-cockpit@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2213,8 +2528,10 @@
       "category": "Productivity",
       "short_description": "Prevent daily drawdown breaches on XAU/USD with real-time 1R bullet limits on your chart.",
       "gecko_id": "gold-scalper-prop-shield@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2227,8 +2544,10 @@
       "category": "Productivity",
       "short_description": "Unified Gold, Forex, Index & Crypto cockpit with draggable Shadow-DOM overlay & XM bonus.",
       "gecko_id": "multi-asset-risk-terminal@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2241,8 +2560,10 @@
       "category": "Productivity",
       "short_description": "Flagship TradingView overlay: MTF confluence, 1:1.5 vs 1:2 RR simulator, lot & DD guard.",
       "gecko_id": "trader-execution-hud-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2255,8 +2576,10 @@
       "category": "Shopping",
       "short_description": "Reveal hidden Shopify /products.json catalogs, ad pixels, price drops & FBA net margins.",
       "gecko_id": "koala-store-spy-inspector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2269,8 +2592,10 @@
       "category": "Shopping",
       "short_description": "Extract hidden store /products.json SKUs, compare-at discounts & export catalog CSV in 1 click.",
       "gecko_id": "shopify-products-json-spy@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2283,8 +2608,10 @@
       "category": "Shopping",
       "short_description": "Calculate true net profit, platform fee impact & breakeven ROAS directly on Amazon listings.",
       "gecko_id": "amazon-fba-margin-inspector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2297,8 +2624,10 @@
       "category": "Shopping",
       "short_description": "Automatically snapshot product prices in local storage to spot real price drops & discounts.",
       "gecko_id": "keepa-lite-price-tracker@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2311,8 +2640,10 @@
       "category": "Shopping",
       "short_description": "Detect Meta Pixel, TikTok Pixel, Klaviyo, GA4 & Loox/Judge.me apps on competitor storefronts.",
       "gecko_id": "dropship-ad-pixel-detector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2325,8 +2656,10 @@
       "category": "Shopping",
       "short_description": "Harvest high-resolution product photos & promo videos from Shopify, Amazon, Woo & Etsy.",
       "gecko_id": "product-media-bulk-saver@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2339,8 +2672,10 @@
       "category": "Shopping",
       "short_description": "Parse JSON-LD structured product metadata, SKUs & SEO meta tags from any storefront.",
       "gecko_id": "woocommerce-product-inspector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2353,8 +2688,10 @@
       "category": "Shopping",
       "short_description": "Inspect listing keywords, product images, price history & real margin after marketplace fees.",
       "gecko_id": "etsy-listing-seo-margin-spy@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2367,8 +2704,10 @@
       "category": "Shopping",
       "short_description": "Model COGS, shipping, Meta/TikTok CPA & return reserves in a Shadow-DOM store sidebar.",
       "gecko_id": "dropshipping-unit-economics@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2381,8 +2720,10 @@
       "category": "Shopping",
       "short_description": "Auto-extract competitor product titles, prices, variants & tags straight to CSV or JSON.",
       "gecko_id": "shopify-bestseller-exporter@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2395,8 +2736,10 @@
       "category": "Shopping",
       "short_description": "Evaluate store traffic pixels, catalog depth, asset quality & unit margin in one HUD.",
       "gecko_id": "winning-product-research-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2409,8 +2752,10 @@
       "category": "Shopping",
       "short_description": "Inspect product H1, meta descriptions, canonical links & keyword tags on any e-commerce site.",
       "gecko_id": "ecom-seo-meta-tag-auditor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2423,8 +2768,10 @@
       "category": "Shopping",
       "short_description": "Slide open over any product page to prefill price and compute net margin & target ROAS.",
       "gecko_id": "roas-breakeven-sidebar-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2437,8 +2784,10 @@
       "category": "Shopping",
       "short_description": "Log compare-at discounts & historical price shifts locally while browsing rival stores.",
       "gecko_id": "competitor-discount-tracker@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2451,8 +2800,10 @@
       "category": "Shopping",
       "short_description": "Collect clean product video & high-res photo URLs from store pages without hunting DOM.",
       "gecko_id": "ad-creative-asset-extractor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2465,8 +2816,10 @@
       "category": "Shopping",
       "short_description": "Track marketplace prices persistently & test referral fee + fulfillment profit scenarios.",
       "gecko_id": "helium-margin-companion-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2479,8 +2832,10 @@
       "category": "Shopping",
       "short_description": "See if a store runs TikTok Ads, Meta Pixel, Klaviyo email or Recharge subscriptions fast.",
       "gecko_id": "klaviyo-pixel-tech-detector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2493,8 +2848,10 @@
       "category": "Shopping",
       "short_description": "Uncover structured product offers, GTIN/SKU fields & currency pricing in clean JSON view.",
       "gecko_id": "schema-product-json-viewer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2507,8 +2864,10 @@
       "category": "Shopping",
       "short_description": "Audit Shopify/Woo DTC brands: apps, pixels, catalog CSV, assets & margin potential.",
       "gecko_id": "dtc-brand-audit-sidebar@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2521,8 +2880,10 @@
       "category": "Shopping",
       "short_description": "Flagship Koala & Keepa-lite inspector: /products.json, price history, pixels & FBA margin.",
       "gecko_id": "universal-ecom-spy-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2535,8 +2896,10 @@
       "category": "Developer Tools",
       "short_description": "Hover any element for instant font, HEX/RGB, dimensions & 1-click Copy Clean CSS in HUD.",
       "gecko_id": "css-peeper-hover-inspector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2549,8 +2912,10 @@
       "category": "Developer Tools",
       "short_description": "Automatically scroll webpages slice-by-slice, stitch onto HTML5 Canvas & save crisp PNG.",
       "gecko_id": "gofullpage-canvas-capture@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2563,8 +2928,10 @@
       "category": "Developer Tools",
       "short_description": "Detect React, Next.js, Vue, Tailwind, Shopify, WordPress, Stripe & GTM frameworks offline.",
       "gecko_id": "wappalyzer-tech-stack-spy@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2577,8 +2944,10 @@
       "category": "Developer Tools",
       "short_description": "Extract ranked HEX/RGB site color palettes & active font stacks with 1-click swatch copy.",
       "gecko_id": "brand-color-palette-peeper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2591,8 +2960,10 @@
       "category": "Developer Tools",
       "short_description": "Serialize every inline <svg> & high-res <img> on a page for instant clean .svg downloads.",
       "gecko_id": "svg-logo-asset-downloader@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2605,8 +2976,10 @@
       "category": "Developer Tools",
       "short_description": "Inspect live font families, sizes, weights & line-heights via a floating Shadow-DOM HUD.",
       "gecko_id": "font-finder-typography-hud@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2619,8 +2992,10 @@
       "category": "Developer Tools",
       "short_description": "Check element width/height, padding, margin & border-radius instantly on live pages.",
       "gecko_id": "box-model-spacing-auditor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2633,8 +3008,10 @@
       "category": "Developer Tools",
       "short_description": "Capture full scrollable landing pages seamlessly onto canvas with zero external servers.",
       "gecko_id": "fullpage-png-archiver-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2647,8 +3024,10 @@
       "category": "Developer Tools",
       "short_description": "Reveal Next.js, Nuxt, Webflow, Framer, GSAP, Three.js & CDN signals locally in 1 click.",
       "gecko_id": "frontend-framework-detector@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2661,8 +3040,10 @@
       "category": "Developer Tools",
       "short_description": "Reverse-engineer competitor color swatches, typography hierarchy & clean component CSS.",
       "gecko_id": "design-system-token-peeper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2675,8 +3056,10 @@
       "category": "Developer Tools",
       "short_description": "Click any UI card or button in Inspect Mode to copy clean minimal computed CSS rules.",
       "gecko_id": "tailwind-css-component-copier@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2689,8 +3072,10 @@
       "category": "Developer Tools",
       "short_description": "Extract clean XML markup for every inline SVG illustration on the active webpage.",
       "gecko_id": "svg-vector-icon-extractor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2703,8 +3088,10 @@
       "category": "Developer Tools",
       "short_description": "Combine full-page PNG capture with brand palette extraction for designer tear-downs.",
       "gecko_id": "landing-page-capture-studio@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2717,8 +3104,10 @@
       "category": "Developer Tools",
       "short_description": "Scan every visible node cleanly to rank exact HEX colors & copy any swatch instantly.",
       "gecko_id": "pixel-color-hex-eyedropper@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2731,8 +3120,10 @@
       "category": "Developer Tools",
       "short_description": "Identify Webflow, Framer, WordPress, Shopify & analytics scripts running on any domain.",
       "gecko_id": "webflow-framer-stack-spy@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2745,8 +3136,10 @@
       "category": "Developer Tools",
       "short_description": "Live Shadow-DOM tooltip showing tag, size, font & colors without leaving your design tab.",
       "gecko_id": "ui-designer-hover-hud-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2759,8 +3152,10 @@
       "category": "Developer Tools",
       "short_description": "Inspect naturalWidth x naturalHeight across all page images and export SVG vectors.",
       "gecko_id": "web-asset-image-size-audit@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2773,8 +3168,10 @@
       "category": "Developer Tools",
       "short_description": "Archive complete scrollable QA views onto a single stitched PNG with resolution readout.",
       "gecko_id": "scroll-capture-qa-recorder@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2787,8 +3184,10 @@
       "category": "Developer Tools",
       "short_description": "Hover CSS inspector, color swatches, framework fingerprints & full capture in one sidebar.",
       "gecko_id": "css-palette-stack-workbench@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2801,8 +3200,10 @@
       "category": "Developer Tools",
       "short_description": "All-in-one CSS Peeper, Wappalyzer-lite, SVG extractor & GoFullPage scroll-stitch PNG.",
       "gecko_id": "godmode-web-devtools-suite@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2815,8 +3216,10 @@
       "category": "Productivity",
       "short_description": "IDM-style floating video download pill, 8x multi-chunk range accelerator & live speed queue.",
       "gecko_id": "idm-turbo-download-manager@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/idm-turbo-download-manager/",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "live"
     },
     {
@@ -2829,8 +3232,10 @@
       "category": "Productivity",
       "short_description": "Sniff .m3u8 HLS playlists, pick 1080p/720p quality, decrypt AES-128 & merge TS/MP4 locally.",
       "gecko_id": "hls-m3u8-stream-merger@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2843,8 +3248,10 @@
       "category": "Productivity",
       "short_description": "IDM-grade queue dashboard with live MB/s telemetry, pause/resume controls & subfolder rules.",
       "gecko_id": "chrono-smart-download-manager@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2857,8 +3264,10 @@
       "category": "Developer Tools",
       "short_description": "Grab every link, video, PDF or ZIP on a page with wildcard regex filters & 1-click batching.",
       "gecko_id": "downthemall-batch-link-grabber@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2871,8 +3280,10 @@
       "category": "Productivity",
       "short_description": "Capture MP3, M4A, AAC, FLAC streams via network sniffer or record live tab audio tracks.",
       "gecko_id": "audio-mp3-podcast-extractor@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2885,8 +3296,10 @@
       "category": "Productivity",
       "short_description": "Inspect page photo galleries, filter 800px+ HD images, convert to PNG/JPG & batch download.",
       "gecko_id": "bulk-image-gallery-ripper-pro@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2899,8 +3312,10 @@
       "category": "Productivity",
       "short_description": "Detect progressive MP4/WebM streams across feeds & blogs with floating IDM video download bar.",
       "gecko_id": "web-mp4-social-video-sniffer@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2913,8 +3328,10 @@
       "category": "Productivity",
       "short_description": "Extract & batch download PDFs, research papers, EPUBs, DOCX & ZIP bundles in one click.",
       "gecko_id": "document-pdf-ebook-harvester@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2927,8 +3344,10 @@
       "category": "Productivity",
       "short_description": "Record hidden blob MSE web players, live streams & audio via captureStream WebM DVR.",
       "gecko_id": "blob-stream-live-dvr-recorder@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     },
     {
@@ -2941,8 +3360,10 @@
       "category": "Developer Tools",
       "short_description": "Visual yt-dlp flag builder with Aria2c 16x, Cookies, Subtitles & 1-click .bat script export.",
       "gecko_id": "ytdlp-companion-cli-studio@amritraj-prosuite.dev",
+      "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
+      "edge_status": "unregistered",
       "status": "scheduled"
     }
   ]
