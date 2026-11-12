@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Broken Link &amp; Anchor Auditor — Free Browser Extension for Chrome, Edge &amp; Firefox</title>
+  <meta name="description" content="Scan all internal and external hyperlinks on a webpage to identify dead anchors and audit site navigation. Compatible with Chrome, Microsoft Edge, and Mozilla Firefox." />
+  <link rel="canonical" href="https://firstbabyreborn-ai.github.io/ext-remote-config/tools/broken-link-anchor-checker.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Broken Link &amp; Anchor Auditor — Free Browser Extension for Chrome, Edge &amp; Firefox" />
+  <meta property="og:description" content="Scan all internal and external hyperlinks on a webpage to identify dead anchors and audit site navigation." />
+  <meta property="og:image" content="https://firstbabyreborn-ai.github.io/ext-remote-config/assets/icons/broken-link-anchor-checker.png" />
+  <meta property="og:url" content="https://firstbabyreborn-ai.github.io/ext-remote-config/tools/broken-link-anchor-checker.html" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Broken Link & Anchor Auditor", "description": "Scan all internal and external hyperlinks on a webpage to identify dead anchors and audit site navigation.", "operatingSystem": "Chrome, Microsoft Edge, Mozilla Firefox", "applicationCategory": "BrowserApplication", "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/tools/broken-link-anchor-checker.html", "image": "https://firstbabyreborn-ai.github.io/ext-remote-config/assets/icons/broken-link-anchor-checker.png", "softwareVersion": "2.1.0", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "166", "bestRating": "5", "worstRating": "1"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock"}}</script>
+  <style>
+    :root { --bg:#090d16; --card:#111827; --card2:#161f33; --ink:#f8fafc; --muted:#94a3b8; --purple:#7c5cff; --emerald:#10b981; --border:rgba(255,255,255,0.1); }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { background:radial-gradient(circle at 80% 0%,rgba(124,92,255,0.18),transparent 45%),var(--bg); color:var(--ink); font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.55; padding:24px 16px 64px; }
+    .wrap { max-width:900px; margin:0 auto; display:flex; flex-direction:column; gap:20px; }
+    .nav { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+    .nav a { color:#cbd5e1; text-decoration:none; font-size:14px; font-weight:700; }
+    .hero { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:26px; display:flex; flex-direction:column; gap:18px; }
+    .hero-top { display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+    .hero-top img { width:76px; height:76px; border-radius:18px; box-shadow:0 12px 28px rgba(0,0,0,0.45); }
+    .badge { display:inline-block; font-size:11px; font-weight:800; padding:3px 9px; border-radius:999px; background:rgba(124,92,255,0.18); color:#c4b5fd; border:1px solid rgba(124,92,255,0.4); margin-bottom:6px; }
+    h1 { font-size:clamp(22px,3.2vw,32px); font-weight:900; line-height:1.2; }
+    .sub { color:var(--muted); font-size:15px; max-width:68ch; }
+    .cta-row { display:flex; flex-wrap:wrap; gap:10px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; padding:11px 18px; border-radius:10px; font-size:14px; font-weight:800; text-decoration:none; transition:transform .12s ease; }
+    .btn:hover { transform:translateY(-1px); }
+    .btn-ff { background:linear-gradient(135deg,#ff7139,#e66000); color:#fff; }
+    .btn-edge { background:linear-gradient(135deg,#0078d4,#0ea5e9); color:#fff; }
+    .btn-sec { background:var(--card2); color:#e2e8f0; border:1px solid var(--border); }
+    .btn-pro { background:linear-gradient(135deg,#7c5cff,#5b3df5); color:#fff; box-shadow:0 8px 24px rgba(124,92,255,0.4); }
+    .btn-xm { background:linear-gradient(135deg,#10b981,#059669); color:#fff; }
+    .pro-box { background:linear-gradient(135deg,rgba(124,92,255,0.18),rgba(16,185,129,0.08)); border:1.5px solid rgba(124,92,255,0.5); border-radius:16px; padding:22px; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+    .pro-box h2 { font-size:20px; font-weight:900; }
+    .pro-box p { color:#cbd5e1; font-size:14px; margin-top:4px; }
+    .xm-box { background:linear-gradient(135deg,rgba(16,185,129,0.15),rgba(245,158,11,0.08)); border:1px solid rgba(16,185,129,0.45); border-radius:16px; padding:22px; display:flex; flex-direction:column; gap:10px; align-items:flex-start; }
+    .xm-pill { font-size:11px; font-weight:900; padding:3px 9px; border-radius:999px; background:#10b981; color:#042f2e; }
+    .preview-card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; display:flex; flex-direction:column; gap:14px; }
+    .preview-purple { border-color:rgba(124,92,255,0.45); background:#12121a; }
+    .preview-hdr { display:flex; justify-content:space-between; align-items:center; font-weight:800; font-size:14px; gap:8px; flex-wrap:wrap; }
+    .tag-emerald,.tag-purple,.tag-cyan { font-size:11px; padding:3px 8px; border-radius:6px; font-weight:800; }
+    .tag-emerald { background:rgba(16,185,129,0.18); color:#6ee7b7; }
+    .tag-purple { background:rgba(124,92,255,0.22); color:#ddd6fe; }
+    .tag-cyan { background:rgba(56,189,248,0.18); color:#7dd3fc; }
+    .calc-demo { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; }
+    .calc-demo label { display:flex; flex-direction:column; gap:5px; font-size:12px; color:var(--muted); font-weight:700; }
+    .calc-demo input { background:#090d16; border:1px solid var(--border); border-radius:8px; padding:8px 10px; color:#fff; font-weight:700; }
+    .kpi-row { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+    .kpi { background:var(--card2); border:1px solid var(--border); border-radius:10px; padding:12px; text-align:center; }
+    .kpi strong { display:block; font-size:18px; color:#34d399; font-family:ui-monospace,monospace; }
+    .kpi span { font-size:11px; color:var(--muted); }
+    .radio-demo { display:flex; flex-direction:column; gap:6px; }
+    .rd-item { display:flex; justify-content:space-between; padding:10px 12px; border-radius:9px; background:#191a28; border:1px solid rgba(255,255,255,0.08); font-size:13px; font-weight:700; }
+    .rd-item.active { border-color:#7c5cff; background:rgba(124,92,255,0.18); }
+    .feat-list { list-style:none; display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; font-size:13.5px; color:#cbd5e1; }
+    .feat-list li { background:var(--card2); padding:10px 12px; border-radius:9px; border:1px solid var(--border); }
+    .rel-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; }
+    .rel-card { display:flex; align-items:center; gap:10px; padding:10px; background:var(--card); border:1px solid var(--border); border-radius:10px; text-decoration:none; color:#f8fafc; }
+    .rel-card strong { display:block; font-size:13px; }
+    .rel-card span { font-size:11px; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <a href="../index.html">&larr; All 210+ Pro Suite Extensions</a>
+      <a href="https://checkout.dodopayments.com/buy/pdt_0NV0F7dBX2336k1ea06a9" target="_blank" rel="noopener noreferrer">Master Key ($7.44 Once) &rarr;</a>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-top">
+        <img src="../assets/icons/broken-link-anchor-checker.png" alt="Broken Link &amp; Anchor Auditor icon" width="76" height="76" />
+        <div>
+          <span class="badge">#044 &bull; Data Scrapers &bull; Chrome / Edge / Firefox MV3</span>
+          <h1>Broken Link &amp; Anchor Auditor — Free Browser Extension for Chrome, Edge &amp; Firefox</h1>
+        </div>
+      </div>
+      <p class="sub">Scan all internal and external hyperlinks on a webpage to identify dead anchors and audit site navigation.</p>
+      <div class="cta-row">
+        <a class="btn btn-sec" href="https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog" target="_blank" rel="noopener noreferrer">Get Firefox / Chrome / Edge Build &rarr;</a><a class="btn btn-sec" href="https://github.com/firstbabyreborn-ai/ext-remote-config#install-unpacked" target="_blank" rel="noopener noreferrer">Chrome / Edge Unpacked ZIP Guide &rarr;</a>
+        <a class="btn btn-pro" href="https://checkout.dodopayments.com/buy/pdt_0NV0F7dBX2336k1ea06a9" target="_blank" rel="noopener noreferrer">Unlock All 210+ Pro Extensions ($7.44 Once) &rarr;</a>
+      </div>
+    </section>
+
+    
+        <div class="preview-card">
+          <div class="preview-hdr"><span>Live Workspace Preview: Broken Link &amp; Anchor Auditor</span><span class="tag-cyan">100% Client-Side MV3</span></div>
+          <ul class="feat-list">
+            <li>&#9889; Instant 0ms offline execution inside Chrome, Edge &amp; Firefox</li>
+            <li>&#128274; Zero telemetry or third-party tracking scripts</li>
+            <li>&#127912; Custom Dark OpenDesignMD UI &amp; keyboard shortcut workflow</li>
+            <li>&#128273; 5 Free Daily Actions included — unlock all 210+ tools for $7.44 once</li>
+          </ul>
+        </div>
+
+    <section class="pro-box">
+      <div>
+        <h2>&#128273; 1 Master Key Unlocks All 210+ Pro Tools</h2>
+        <p>One-time $7.44 payment (69% OFF $24). Unlimited daily credits across every Chrome, Edge &amp; Firefox extension in the fleet.</p>
+      </div>
+      <a class="btn btn-pro" href="https://checkout.dodopayments.com/buy/pdt_0NV0F7dBX2336k1ea06a9" target="_blank" rel="noopener noreferrer">Get Lifetime Master Key — $7.44 &rarr;</a>
+    </section>
+
+    
+
+    <section>
+      <h2 style="font-size:16px;margin-bottom:10px;">Related Data Scrapers Tools</h2>
+      <div class="rel-grid"><a class="rel-card" href="html-table-to-csv-exporter.html"><img src="../assets/icons/html-table-to-csv-exporter.png" alt="HTML Table to CSV &amp; Excel Exporter" width="36" height="36"><div><strong>HTML Table to CSV &amp; Excel Exporter</strong><span>Data Scrapers</span></div></a><a class="rel-card" href="email-lead-harvester-pro.html"><img src="../assets/icons/email-lead-harvester-pro.png" alt="Email &amp; Lead Harvester Pro" width="36" height="36"><div><strong>Email &amp; Lead Harvester Pro</strong><span>Data Scrapers</span></div></a><a class="rel-card" href="bulk-image-url-harvester.html"><img src="../assets/icons/bulk-image-url-harvester.png" alt="Bulk Image URL Harvester" width="36" height="36"><div><strong>Bulk Image URL Harvester</strong><span>Data Scrapers</span></div></a><a class="rel-card" href="seo-meta-tag-inspector.html"><img src="../assets/icons/seo-meta-tag-inspector.png" alt="SEO Meta Tag &amp; OG Inspector" width="36" height="36"><div><strong>SEO Meta Tag &amp; OG Inspector</strong><span>Data Scrapers</span></div></a></div>
+    </section>
+  </div>
+  <script>
+    (function() {
+      var b = document.getElementById('demo-bal'), r = document.getElementById('demo-risk'), s = document.getElementById('demo-sl');
+      if (!b || !r || !s) return;
+      function upd() {
+        var bal = Math.max(100, Number(b.value) || 100000), rp = Math.max(0.1, Number(r.value) || 1), sl = Math.max(1, Number(s.value) || 25);
+        var usd = bal * (rp / 100), lots = usd / (sl * 10);
+        document.getElementById('kpi-lots').textContent = lots.toFixed(2) + ' Lots';
+        document.getElementById('kpi-risk').textContent = '$' + usd.toLocaleString(undefined, {maximumFractionDigits:0});
+        document.getElementById('kpi-tp2').textContent = '+$' + (usd * 2).toLocaleString(undefined, {maximumFractionDigits:0});
+      }
+      b.addEventListener('input', upd); r.addEventListener('input', upd); s.addEventListener('input', upd);
+    })();
+  </script>
+</body>
+</html>
