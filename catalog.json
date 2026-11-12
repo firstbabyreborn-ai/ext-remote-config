@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0.0",
-  "updated_at": "2026-11-12T06:10:51.778351+00:00",
+  "updated_at": "2026-11-12T06:11:54.852806+00:00",
   "total_extensions": 210,
-  "live_firefox_count": 2,
+  "live_firefox_count": 4,
   "catalog_hub_url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog",
   "extensions": [
     {
@@ -15,9 +15,9 @@
       "category": "Photos",
       "short_description": "Convert WebP images to high quality PNG format instantly inside your browser. Fast, private, and 100% offline.",
       "gecko_id": "webp-to-png-converter@amritraj-prosuite.dev",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/webp-to-png-converter/",
       "edge_url": "",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "002",
@@ -1415,9 +1415,9 @@
       "category": "Productivity",
       "short_description": "Floating AI selection toolbar & sidebar for summaries, rewrites, actions & BYOK GPT/Gemini.",
       "gecko_id": "ai-sidebar-copilot-pro@amritraj-prosuite.dev",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/ai-sidebar-copilot-pro/",
       "edge_url": "",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "102",

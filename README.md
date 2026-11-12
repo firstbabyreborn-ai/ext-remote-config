@@ -3,10 +3,12 @@
 **1 Master Key unlocks every extension below forever — Zero Subscriptions.**
 
 <!-- LIVE_RELEASES_START -->
-### Live Firefox Add-ons Releases (2 Published)
+### Live Firefox Add-ons Releases (4 Published)
 
 | ID | Extension | Category | Firefox Store |
 | :--- | :--- | :--- | :--- |
+| `001` | **WebP to PNG Converter Pro** | `Photos` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/webp-to-png-converter/) |
+| `101` | **AI Sidebar Copilot Pro - Instant Summary** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ai-sidebar-copilot-pro/) |
 | `141` | **TradingView Pro Cockpit HUD Overlay** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/) |
 | `201` | **IDM Turbo 8x Download Manager Pro** | `Productivity` | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/idm-turbo-download-manager/) |
 <!-- LIVE_RELEASES_END -->
