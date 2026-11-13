@@ -1,9 +1,9 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-12T10:05:35.139604+00:00",
+  "updated_at": "2026-11-13T02:18:34.611740+00:00",
   "total_extensions": 210,
   "live_firefox_count": 4,
-  "live_edge_count": 1,
+  "live_edge_count": 0,
   "catalog_hub_url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog",
   "extensions": [
     {
@@ -19,7 +19,7 @@
       "edge_product_id": "",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/webp-to-png-converter/",
       "edge_url": "",
-      "edge_status": "unregistered",
+      "edge_status": "awaiting_product_id",
       "status": "live"
     },
     {
@@ -1619,7 +1619,7 @@
       "edge_product_id": "",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/ai-sidebar-copilot-pro/",
       "edge_url": "",
-      "edge_status": "unregistered",
+      "edge_status": "awaiting_product_id",
       "status": "live"
     },
     {
@@ -2258,8 +2258,8 @@
       "gecko_id": "tradingview-cockpit-hud-pro@amritraj-prosuite.dev",
       "edge_product_id": "16acbc81-f497-4069-aaa2-859f4cdd1d9e",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/",
-      "edge_url": "https://microsoftedge.microsoft.com/addons/detail/16acbc81-f497-4069-aaa2-859f4cdd1d9e",
-      "edge_status": "package_uploaded",
+      "edge_url": "",
+      "edge_status": "error",
       "status": "live"
     },
     {
@@ -3219,7 +3219,7 @@
       "edge_product_id": "",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/idm-turbo-download-manager/",
       "edge_url": "",
-      "edge_status": "unregistered",
+      "edge_status": "awaiting_product_id",
       "status": "live"
     },
     {
