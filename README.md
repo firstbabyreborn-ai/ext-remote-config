@@ -3,13 +3,17 @@
 **1 Master Key unlocks every extension below forever — Zero Subscriptions.**
 
 <!-- LIVE_RELEASES_START -->
-### Live Multi-Store Releases (4 Firefox / 0 Microsoft Edge)
+### Live Multi-Store Releases (8 Firefox / 1 Microsoft Edge)
 
 | ID | Extension | Category | Firefox Store | Microsoft Edge |
 | :--- | :--- | :--- | :--- | :--- |
 | `001` | **WebP to PNG Converter Pro** | `Photos` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/webp-to-png-converter/) | Awaiting Shell |
+| `061` | **Gold XAU/USD Lot & Risk Calc** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/gold-xauusd-lot-calculator/) | Awaiting Shell |
 | `101` | **AI Sidebar Copilot Pro - Instant Summary** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ai-sidebar-copilot-pro/) | Awaiting Shell |
-| `141` | **TradingView Pro Cockpit HUD Overlay** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/) | Awaiting Shell |
+| `121` | **Instant AutoPager Data Harvester Pro** | `Developer Tools` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/instant-autopager-scraper/) | Awaiting Shell |
+| `141` | **TradingView Pro Cockpit HUD Overlay** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/) | [Edge Add-ons (package_uploaded)](https://microsoftedge.microsoft.com/addons/detail/16acbc81-f497-4069-aaa2-859f4cdd1d9e) |
+| `161` | **Koala Store Spy & Catalog Inspector** | `Shopping` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/koala-store-spy-inspector/) | Awaiting Shell |
+| `181` | **CSS Peeper Live Element Inspector** | `Developer Tools` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/css-peeper-hover-inspector/) | Awaiting Shell |
 | `201` | **IDM Turbo 8x Download Manager Pro** | `Productivity` | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/idm-turbo-download-manager/) | Awaiting Shell |
 <!-- LIVE_RELEASES_END -->
 
