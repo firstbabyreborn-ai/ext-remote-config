@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-13T04:04:28.870469+00:00",
+  "updated_at": "2026-11-13T05:01:06.182888+00:00",
   "total_extensions": 216,
   "live_firefox_count": 4,
   "live_edge_count": 0,
@@ -3480,7 +3480,9 @@
         "actor_id": "4ivUqtuoqixq3Sodr",
         "store_url": "https://apify.com/rebornhere/gmaps-lead-extractor",
         "publication_url": "https://console.apify.com/actors/4ivUqtuoqixq3Sodr#/publication",
-        "status": "READY_FOR_PUBLIC_TOGGLE"
+        "status": "PUBLIC_LIVE",
+        "is_public": true,
+        "http_status": 200
       },
       {
         "id": "002",
@@ -3610,7 +3612,9 @@
         "actor_id": "Be24O0Tya0lAUkz38",
         "store_url": "https://apify.com/rebornhere/shopify-store-catalog-scraper",
         "publication_url": "https://console.apify.com/actors/Be24O0Tya0lAUkz38#/publication",
-        "status": "READY_FOR_PUBLIC_TOGGLE"
+        "status": "PUBLIC_LIVE",
+        "is_public": true,
+        "http_status": 200
       },
       {
         "id": "012",
@@ -3740,7 +3744,9 @@
         "actor_id": "gYvSTlhFLM5cW5gbF",
         "store_url": "https://apify.com/rebornhere/website-to-llm-markdown-crawler",
         "publication_url": "https://console.apify.com/actors/gYvSTlhFLM5cW5gbF#/publication",
-        "status": "READY_FOR_PUBLIC_TOGGLE"
+        "status": "PUBLIC_LIVE",
+        "is_public": true,
+        "http_status": 200
       },
       {
         "id": "022",
@@ -3870,7 +3876,9 @@
         "actor_id": "03PmBgKS5aJyIY5YP",
         "store_url": "https://apify.com/rebornhere/remote-tech-job-aggregator",
         "publication_url": "https://console.apify.com/actors/03PmBgKS5aJyIY5YP#/publication",
-        "status": "READY_FOR_PUBLIC_TOGGLE"
+        "status": "PUBLIC_LIVE",
+        "is_public": true,
+        "http_status": 200
       },
       {
         "id": "032",
@@ -4000,7 +4008,9 @@
         "actor_id": "AeMFk7ENbfbNHknHH",
         "store_url": "https://apify.com/rebornhere/xauusd-gold-forex-signal-feed",
         "publication_url": "https://console.apify.com/actors/AeMFk7ENbfbNHknHH#/publication",
-        "status": "READY_FOR_PUBLIC_TOGGLE"
+        "status": "PUBLIC_LIVE",
+        "is_public": true,
+        "http_status": 200
       },
       {
         "id": "042",
