@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 6,
-    "current_autopilot_day": 2,
+    "published_count": 12,
+    "current_autopilot_day": 3,
     "extensions": [
       {
         "id": "0001",
@@ -3490,9 +3490,9 @@
         "slug": "cursorrules-react",
         "displayName": "React - Cursor Rules Architects",
         "niche": "AI, LLM & Cursor Workspace Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/cursorrules-react",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0003",
@@ -4390,9 +4390,9 @@
         "slug": "pine-trend-ema-ribbon",
         "displayName": "Ema Ribbon - Pine Script v5 Trend & Momentum Indicators",
         "niche": "Quant, Pine Script v5 & Algorithmic Trading",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/pine-trend-ema-ribbon",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0103",
@@ -8881,9 +8881,9 @@
         "slug": "curl-convert-curl-to-fetch",
         "displayName": "Curl To Fetch - cURL to Fetch, Axios, Python & Go Converters",
         "niche": "REST, GraphQL, gRPC & API Client Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/curl-convert-curl-to-fetch",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0602",
@@ -9781,9 +9781,9 @@
         "slug": "json-to-ts-nested-objects-ts",
         "displayName": "Nested Objects Ts - JSON to Strict TypeScript Interfaces",
         "niche": "Data Serialization, Schema Validation & Types",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/json-to-ts-nested-objects-ts",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0702",
@@ -10681,9 +10681,9 @@
         "slug": "git-rebase-autosquash-fixup",
         "displayName": "Autosquash Fixup - Git Interactive Rebase & Squashing Command Helpers",
         "niche": "Advanced Git, Branching & Code Review Workflows",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/git-rebase-autosquash-fixup",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0802",
@@ -11581,9 +11581,9 @@
         "slug": "vitest-jest-describe-it-expect",
         "displayName": "Describe It Expect - Vitest & Jest Unit Test Scaffolding & Mocks",
         "niche": "Testing, Benchmarking, Performance & DevTools",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/vitest-jest-describe-it-expect",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0902",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-13T16:33:33.925451+00:00"
+    "updated_at": "2026-11-14T02:43:07.458456+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
