@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-14T02:41:50.878132+00:00",
+  "updated_at": "2026-11-14T04:17:24.006442+00:00",
   "total_extensions": 216,
   "live_firefox_count": 12,
   "live_edge_count": 1,
@@ -2258,8 +2258,8 @@
       "gecko_id": "tradingview-cockpit-hud-pro@amritraj-prosuite.dev",
       "edge_product_id": "16acbc81-f497-4069-aaa2-859f4cdd1d9e",
       "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/tradingview-cockpit-hud-pro/",
-      "edge_url": "https://microsoftedge.microsoft.com/addons/detail/16acbc81-f497-4069-aaa2-859f4cdd1d9e",
-      "edge_status": "package_uploaded",
+      "edge_url": "",
+      "edge_status": "submitted",
       "status": "live"
     },
     {
@@ -12485,7 +12485,7 @@
     "published_count": 10,
     "current_autopilot_day": 3,
     "base_domain": "cccarlogen.workers.dev",
-    "updated_at": "2026-11-14T03:46:01.406993+00:00",
+    "updated_at": "2026-11-14T05:38:54.269429+00:00",
     "apis": [
       {
         "id": "0001",

@@ -1,7 +1,7 @@
 {
   "total_master_bundles": 20,
   "total_endpoints": 1000,
-  "updated_at": "2026-11-14T04:14:39.942652+00:00",
+  "updated_at": "2026-11-14T05:38:53.172680+00:00",
   "master_bundles": [
     {
       "worker_idx": 1,
@@ -425,5 +425,21 @@
     "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0010.json",
     "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/page-content-summary",
     "status": "PUBLIC_LIVE"
+  },
+  "master_hub": {
+    "project_id": "api_e55e31c9-d76d-465c-9b7d-c49c26bb4b77",
+    "title": "RebornEdge Master API Hub - Institutional Edge Intelligence",
+    "primary_gateway_url": "https://reborn-edge-01.cccarlogen.workers.dev",
+    "spec_filename": "master_all_active.json",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/master_all_active.json",
+    "logo_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/rebornedge_hub_logo.png",
+    "endpoints_count": 50,
+    "pricing": {
+      "BASIC": "$0 / mo",
+      "PRO": "$7.99 / mo",
+      "ULTRA": "$19.90 / mo",
+      "MEGA": "$79.00 / mo"
+    },
+    "updated_at": "2026-11-14T05:38:53.208214+00:00"
   }
 }
