@@ -1,0 +1,3543 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "RebornEdge 06: Live Web, Scraping & SEO Intelligence Master Suite",
+    "version": "1.0.0",
+    "description": "Production 50-endpoint master OpenAPI 3.0.3 suite for Live Web, Scraping & SEO Intelligence.\n\nPowered by Cloudflare V8 global edge network (https://reborn-edge-06.cccarlogen.workers.dev). Delivers sub-150ms execution worldwide with 0 cold starts. Supports RapidAPI proxy authentication (X-RapidAPI-Key) and direct Bearer Workspace tokens.",
+    "termsOfService": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+    "contact": {
+      "name": "RebornEdge Global Developer Platform",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+      "email": "support@amritraj-prosuite.dev"
+    },
+    "license": {
+      "name": "Commercial API License",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://reborn-edge-06.cccarlogen.workers.dev",
+      "description": "Production Cloudflare V8 Edge Router (reborn-edge-06)"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Live Web, Scraping & SEO Intelligence",
+      "description": "Endpoints for Live Web, Scraping & SEO Intelligence"
+    }
+  ],
+  "paths": {
+    "/v1/tech-stack-fingerprint-01": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #01",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_01",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0251",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-02": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #02",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_02",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0252",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-03": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #03",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_03",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0253",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-04": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #04",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_04",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0254",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-05": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #05",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_05",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0255",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-06": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #06",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_06",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0256",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-07": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #07",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_07",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0257",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-08": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #08",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_08",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0258",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-09": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #09",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_09",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0259",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-10": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #10",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_10",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0260",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-11": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #11",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_11",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0261",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-12": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #12",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_12",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0262",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-13": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #13",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_13",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0263",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-14": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #14",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_14",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0264",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-15": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #15",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_15",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0265",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-16": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #16",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_16",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0266",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-17": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #17",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_17",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0267",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-18": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #18",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_18",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0268",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-19": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #19",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_19",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0269",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-20": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #20",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_20",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0270",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-21": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #21",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_21",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0271",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-22": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #22",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_22",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0272",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-23": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #23",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_23",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0273",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-24": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #24",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_24",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0274",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-25": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #25",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_25",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0275",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-26": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #26",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_26",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0276",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-27": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #27",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_27",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0277",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-28": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #28",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_28",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0278",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-29": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #29",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_29",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0279",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-30": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #30",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_30",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0280",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-31": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #31",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_31",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0281",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-32": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #32",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_32",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0282",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-33": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #33",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_33",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0283",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-34": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #34",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_34",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0284",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-35": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #35",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_35",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0285",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-36": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #36",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_36",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0286",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-37": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #37",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_37",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0287",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-38": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #38",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_38",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0288",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-39": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #39",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_39",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0289",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-40": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #40",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_40",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0290",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-41": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #41",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_41",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0291",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-42": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #42",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_42",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0292",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-43": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #43",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_43",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0293",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-44": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #44",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_44",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0294",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-45": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #45",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_45",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0295",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-46": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #46",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_46",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0296",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-47": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #47",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_47",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0297",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-48": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #48",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_48",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0298",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-49": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #49",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_49",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0299",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/tech-stack-fingerprint-50": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Tech Stack & Framework Fingerprinter #50",
+        "description": "Detects React, Next.js, WordPress, Shopify, Cloudflare, Tailwind from live DOM",
+        "operationId": "execute_tech_stack_fingerprint_50",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://wordpress.org"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0300",
+                  "latency_ms": 12,
+                  "data": {
+                    "detected_technologies": [
+                      "WordPress"
+                    ],
+                    "confidence_score": 0.95
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "RapidAPIKey": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Key",
+        "in": "header",
+        "description": "RapidAPI Hub Proxy Secret Key"
+      },
+      "RapidAPIHost": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Host",
+        "in": "header",
+        "description": "RapidAPI Hub Host Header (reborn-edge-06.cccarlogen.workers.dev)"
+      },
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Direct RebornEdge / Dodo Payments Workspace Bearer Token"
+      }
+    }
+  },
+  "security": [
+    {
+      "RapidAPIKey": [],
+      "RapidAPIHost": []
+    },
+    {
+      "BearerAuth": []
+    }
+  ],
+  "x-pricing-plans": {
+    "BASIC": {
+      "name": "Basic (Developer Free Tier)",
+      "price_usd": 0.0,
+      "quota": 100,
+      "rate_limit": "5 requests / sec",
+      "period": "MONTHLY"
+    },
+    "PRO": {
+      "name": "Pro (Startup Builder)",
+      "price_usd": 7.99,
+      "quota": 25000,
+      "rate_limit": "25 requests / sec",
+      "period": "MONTHLY"
+    },
+    "ULTRA": {
+      "name": "Ultra (Production Scale)",
+      "price_usd": 19.99,
+      "quota": 150000,
+      "rate_limit": "100 requests / sec",
+      "period": "MONTHLY"
+    },
+    "MEGA": {
+      "name": "Mega (Enterprise Uncapped)",
+      "price_usd": 79.99,
+      "quota": 1000000,
+      "overage_per_request_usd": 0.0002,
+      "rate_limit": "500 requests / sec",
+      "period": "MONTHLY"
+    }
+  }
+}

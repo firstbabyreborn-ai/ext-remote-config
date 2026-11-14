@@ -1,0 +1,3743 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "RebornEdge 13: Quant, Gold/Forex & Financial Calculators Master Suite",
+    "version": "1.0.0",
+    "description": "Production 50-endpoint master OpenAPI 3.0.3 suite for Quant, Gold/Forex & Financial Calculators.\n\nPowered by Cloudflare V8 global edge network (https://reborn-edge-13.cccarlogen.workers.dev). Delivers sub-150ms execution worldwide with 0 cold starts. Supports RapidAPI proxy authentication (X-RapidAPI-Key) and direct Bearer Workspace tokens.",
+    "termsOfService": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+    "contact": {
+      "name": "RebornEdge Global Developer Platform",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+      "email": "support@amritraj-prosuite.dev"
+    },
+    "license": {
+      "name": "Commercial API License",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://reborn-edge-13.cccarlogen.workers.dev",
+      "description": "Production Cloudflare V8 Edge Router (reborn-edge-13)"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Quant, Gold/Forex & Financial Calculators",
+      "description": "Endpoints for Quant, Gold/Forex & Financial Calculators"
+    }
+  ],
+  "paths": {
+    "/v1/kelly-criterion-atr-risk-01": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #01",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_01",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0601",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-02": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #02",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_02",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0602",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-03": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #03",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_03",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0603",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-04": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #04",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_04",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0604",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-05": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #05",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_05",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0605",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-06": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #06",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_06",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0606",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-07": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #07",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_07",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0607",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-08": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #08",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_08",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0608",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-09": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #09",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_09",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0609",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-10": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #10",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_10",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0610",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-11": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #11",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_11",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0611",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-12": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #12",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_12",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0612",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-13": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #13",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_13",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0613",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-14": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #14",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_14",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0614",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-15": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #15",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_15",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0615",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-16": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #16",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_16",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0616",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-17": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #17",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_17",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0617",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-18": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #18",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_18",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0618",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-19": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #19",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_19",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0619",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-20": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #20",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_20",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0620",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-21": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #21",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_21",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0621",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-22": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #22",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_22",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0622",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-23": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #23",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_23",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0623",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-24": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #24",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_24",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0624",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-25": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #25",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_25",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0625",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-26": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #26",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_26",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0626",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-27": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #27",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_27",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0627",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-28": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #28",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_28",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0628",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-29": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #29",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_29",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0629",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-30": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #30",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_30",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0630",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-31": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #31",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_31",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0631",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-32": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #32",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_32",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0632",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-33": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #33",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_33",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0633",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-34": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #34",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_34",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0634",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-35": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #35",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_35",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0635",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-36": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #36",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_36",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0636",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-37": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #37",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_37",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0637",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-38": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #38",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_38",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0638",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-39": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #39",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_39",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0639",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-40": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #40",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_40",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0640",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-41": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #41",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_41",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0641",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-42": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #42",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_42",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0642",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-43": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #43",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_43",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0643",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-44": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #44",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_44",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0644",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-45": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #45",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_45",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0645",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-46": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #46",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_46",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0646",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-47": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #47",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_47",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0647",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-48": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #48",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_48",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0648",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-49": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #49",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_49",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0649",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/kelly-criterion-atr-risk-50": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "Kelly Criterion & ATR Risk-of-Ruin Engine #50",
+        "description": "Computes Kelly Criterion optimal bet size and volatility-adjusted position weights",
+        "operationId": "execute_kelly_criterion_atr_risk_50",
+        "parameters": [
+          {
+            "name": "win_rate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 0.55
+            }
+          },
+          {
+            "name": "reward_to_risk",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "example": 2.0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0650",
+                  "latency_ms": 12,
+                  "data": {
+                    "half_kelly_recommended_percent": 16.25
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "RapidAPIKey": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Key",
+        "in": "header",
+        "description": "RapidAPI Hub Proxy Secret Key"
+      },
+      "RapidAPIHost": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Host",
+        "in": "header",
+        "description": "RapidAPI Hub Host Header (reborn-edge-13.cccarlogen.workers.dev)"
+      },
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Direct RebornEdge / Dodo Payments Workspace Bearer Token"
+      }
+    }
+  },
+  "security": [
+    {
+      "RapidAPIKey": [],
+      "RapidAPIHost": []
+    },
+    {
+      "BearerAuth": []
+    }
+  ],
+  "x-pricing-plans": {
+    "BASIC": {
+      "name": "Basic (Developer Free Tier)",
+      "price_usd": 0.0,
+      "quota": 100,
+      "rate_limit": "5 requests / sec",
+      "period": "MONTHLY"
+    },
+    "PRO": {
+      "name": "Pro (Startup Builder)",
+      "price_usd": 7.99,
+      "quota": 25000,
+      "rate_limit": "25 requests / sec",
+      "period": "MONTHLY"
+    },
+    "ULTRA": {
+      "name": "Ultra (Production Scale)",
+      "price_usd": 19.99,
+      "quota": 150000,
+      "rate_limit": "100 requests / sec",
+      "period": "MONTHLY"
+    },
+    "MEGA": {
+      "name": "Mega (Enterprise Uncapped)",
+      "price_usd": 79.99,
+      "quota": 1000000,
+      "overage_per_request_usd": 0.0002,
+      "rate_limit": "500 requests / sec",
+      "period": "MONTHLY"
+    }
+  }
+}

@@ -1,0 +1,3767 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "RebornEdge 01: Live Web, Scraping & SEO Intelligence Master Suite",
+    "version": "1.0.0",
+    "description": "Production 50-endpoint master OpenAPI 3.0.3 suite for Live Web, Scraping & SEO Intelligence.\n\nPowered by Cloudflare V8 global edge network (https://reborn-edge-01.cccarlogen.workers.dev). Delivers sub-150ms execution worldwide with 0 cold starts. Supports RapidAPI proxy authentication (X-RapidAPI-Key) and direct Bearer Workspace tokens.",
+    "termsOfService": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+    "contact": {
+      "name": "RebornEdge Global Developer Platform",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+      "email": "support@amritraj-prosuite.dev"
+    },
+    "license": {
+      "name": "Commercial API License",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://reborn-edge-01.cccarlogen.workers.dev",
+      "description": "Production Cloudflare V8 Edge Router (reborn-edge-01)"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Live Web, Scraping & SEO Intelligence",
+      "description": "Endpoints for Live Web, Scraping & SEO Intelligence"
+    }
+  ],
+  "paths": {
+    "/v1/url-to-markdown": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "URL to Clean LLM Markdown",
+        "description": "Fetches live URL and extracts body as clean formatted Markdown for LLM ingestion",
+        "operationId": "execute_url_to_markdown",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0001",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "url-to-markdown",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/html-to-markdown": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML to Clean Markdown",
+        "description": "Transforms raw HTML markup into clean structured Markdown",
+        "operationId": "execute_html_to_markdown",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0002",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-to-markdown",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/article-main-text": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Article Main Text Extractor",
+        "description": "Extracts headline, lead paragraph, and clean body text from blogs/news",
+        "operationId": "execute_article_main_text",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0003",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "article-main-text",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/webpage-metadata-extractor": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Webpage Metadata Extractor",
+        "description": "Extracts title, meta description, author, lang, charset, and favicon",
+        "operationId": "execute_webpage_metadata_extractor",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0004",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "webpage-metadata-extractor",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/html-table-to-json": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML Table to JSON Matrix",
+        "description": "Scrapes <table> elements from URL or HTML and converts rows to structured JSON",
+        "operationId": "execute_html_table_to_json",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0005",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-table-to-json",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/web-hyperlinks-crawler": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Web Hyperlinks Crawler",
+        "description": "Extracts all internal, external, and anchor <a> links with anchor text",
+        "operationId": "execute_web_hyperlinks_crawler",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0006",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "web-hyperlinks-crawler",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/html-image-asset-extractor": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML Image Asset Extractor",
+        "description": "Extracts all <img> tags, src, srcset, alt text, and dimensions",
+        "operationId": "execute_html_image_asset_extractor",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0007",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-image-asset-extractor",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/readability-score-analyzer": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Readability Score Analyzer",
+        "description": "Computes Flesch Reading Ease and Flesch-Kincaid Grade Level for text",
+        "operationId": "execute_readability_score_analyzer",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0008",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "readability-score-analyzer",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/keyword-frequency-counter": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Keyword Frequency Counter",
+        "description": "Analyzes word count, unique words, and top 20 keyword density percentages",
+        "operationId": "execute_keyword_frequency_counter",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0009",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "keyword-frequency-counter",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/page-content-summary": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Page Content Summary Stripper",
+        "description": "Strips navigation, footers, and sidebars, returning clean core paragraphs",
+        "operationId": "execute_page_content_summary",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0010",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "page-content-summary",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/heading-hierarchy-auditor-v2": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Heading Hierarchy Auditor (H1-H6) (Tier 2)",
+        "description": "Audits semantic heading structure and checks for missing H1 tags (Engine 2)",
+        "operationId": "execute_heading_hierarchy_auditor_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0011",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "heading-hierarchy-auditor-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/email-miner-from-url-v2": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Email Miner from Webpage (Tier 2)",
+        "description": "Scrapes and de-obfuscates email addresses from live web pages (Engine 2)",
+        "operationId": "execute_email_miner_from_url_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0012",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "email-miner-from-url-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/phone-number-harvester-v2": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Phone Number Harvester (Tier 2)",
+        "description": "Scrapes international and local phone numbers from web content (Engine 2)",
+        "operationId": "execute_phone_number_harvester_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0013",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "phone-number-harvester-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/social-link-aggregator-v2": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social Profile Link Aggregator (Tier 2)",
+        "description": "Extracts Twitter, LinkedIn, GitHub, YouTube, and Instagram URLs (Engine 2)",
+        "operationId": "execute_social_link_aggregator_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0014",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "social-link-aggregator-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/pdf-document-finder-v2": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "PDF Document Asset Finder (Tier 2)",
+        "description": "Extracts all downloadable .pdf links with anchor text (Engine 2)",
+        "operationId": "execute_pdf_document_finder_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0015",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "pdf-document-finder-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/iframe-embed-auditor-v2": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "iFrame & Embed Element Auditor (Tier 2)",
+        "description": "Audits embedded iframes, video players, and sandboxed elements (Engine 2)",
+        "operationId": "execute_iframe_embed_auditor_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0016",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "iframe-embed-auditor-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/cookie-header-sniffer-v2": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Set-Cookie Header Inspector (Tier 2)",
+        "description": "Inspects Set-Cookie headers for Secure, HttpOnly, and SameSite flags (Engine 2)",
+        "operationId": "execute_cookie_header_sniffer_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0017",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "cookie-header-sniffer-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/html-form-fields-parser-v2": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML Form Fields & Action Parser (Tier 2)",
+        "description": "Extracts form action URLs, methods, and input field names (Engine 2)",
+        "operationId": "execute_html_form_fields_parser_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0018",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-form-fields-parser-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/code-snippet-extractor-v2": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Code Snippet Extractor from Page (Tier 2)",
+        "description": "Extracts <pre> and <code> blocks with detected programming language (Engine 2)",
+        "operationId": "execute_code_snippet_extractor_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0019",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "code-snippet-extractor-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/favicon-ico-sniffer-v2": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "High-Resolution Favicon Finder (Tier 2)",
+        "description": "Finds apple-touch-icon, manifest icons, and standard favicons (Engine 2)",
+        "operationId": "execute_favicon_ico_sniffer_v2",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0020",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "favicon-ico-sniffer-v2",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/heading-hierarchy-auditor-v3": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Heading Hierarchy Auditor (H1-H6) (Tier 3)",
+        "description": "Audits semantic heading structure and checks for missing H1 tags (Engine 3)",
+        "operationId": "execute_heading_hierarchy_auditor_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0021",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "heading-hierarchy-auditor-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/email-miner-from-url-v3": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Email Miner from Webpage (Tier 3)",
+        "description": "Scrapes and de-obfuscates email addresses from live web pages (Engine 3)",
+        "operationId": "execute_email_miner_from_url_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0022",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "email-miner-from-url-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/phone-number-harvester-v3": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Phone Number Harvester (Tier 3)",
+        "description": "Scrapes international and local phone numbers from web content (Engine 3)",
+        "operationId": "execute_phone_number_harvester_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0023",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "phone-number-harvester-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/social-link-aggregator-v3": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social Profile Link Aggregator (Tier 3)",
+        "description": "Extracts Twitter, LinkedIn, GitHub, YouTube, and Instagram URLs (Engine 3)",
+        "operationId": "execute_social_link_aggregator_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0024",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "social-link-aggregator-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/pdf-document-finder-v3": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "PDF Document Asset Finder (Tier 3)",
+        "description": "Extracts all downloadable .pdf links with anchor text (Engine 3)",
+        "operationId": "execute_pdf_document_finder_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0025",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "pdf-document-finder-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/iframe-embed-auditor-v3": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "iFrame & Embed Element Auditor (Tier 3)",
+        "description": "Audits embedded iframes, video players, and sandboxed elements (Engine 3)",
+        "operationId": "execute_iframe_embed_auditor_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0026",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "iframe-embed-auditor-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/cookie-header-sniffer-v3": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Set-Cookie Header Inspector (Tier 3)",
+        "description": "Inspects Set-Cookie headers for Secure, HttpOnly, and SameSite flags (Engine 3)",
+        "operationId": "execute_cookie_header_sniffer_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0027",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "cookie-header-sniffer-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/html-form-fields-parser-v3": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML Form Fields & Action Parser (Tier 3)",
+        "description": "Extracts form action URLs, methods, and input field names (Engine 3)",
+        "operationId": "execute_html_form_fields_parser_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0028",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-form-fields-parser-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/code-snippet-extractor-v3": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Code Snippet Extractor from Page (Tier 3)",
+        "description": "Extracts <pre> and <code> blocks with detected programming language (Engine 3)",
+        "operationId": "execute_code_snippet_extractor_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0029",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "code-snippet-extractor-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/favicon-ico-sniffer-v3": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "High-Resolution Favicon Finder (Tier 3)",
+        "description": "Finds apple-touch-icon, manifest icons, and standard favicons (Engine 3)",
+        "operationId": "execute_favicon_ico_sniffer_v3",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0030",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "favicon-ico-sniffer-v3",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/heading-hierarchy-auditor-v4": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Heading Hierarchy Auditor (H1-H6) (Tier 4)",
+        "description": "Audits semantic heading structure and checks for missing H1 tags (Engine 4)",
+        "operationId": "execute_heading_hierarchy_auditor_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0031",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "heading-hierarchy-auditor-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/email-miner-from-url-v4": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Email Miner from Webpage (Tier 4)",
+        "description": "Scrapes and de-obfuscates email addresses from live web pages (Engine 4)",
+        "operationId": "execute_email_miner_from_url_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0032",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "email-miner-from-url-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/phone-number-harvester-v4": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Phone Number Harvester (Tier 4)",
+        "description": "Scrapes international and local phone numbers from web content (Engine 4)",
+        "operationId": "execute_phone_number_harvester_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0033",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "phone-number-harvester-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/social-link-aggregator-v4": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social Profile Link Aggregator (Tier 4)",
+        "description": "Extracts Twitter, LinkedIn, GitHub, YouTube, and Instagram URLs (Engine 4)",
+        "operationId": "execute_social_link_aggregator_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0034",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "social-link-aggregator-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/pdf-document-finder-v4": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "PDF Document Asset Finder (Tier 4)",
+        "description": "Extracts all downloadable .pdf links with anchor text (Engine 4)",
+        "operationId": "execute_pdf_document_finder_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0035",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "pdf-document-finder-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/iframe-embed-auditor-v4": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "iFrame & Embed Element Auditor (Tier 4)",
+        "description": "Audits embedded iframes, video players, and sandboxed elements (Engine 4)",
+        "operationId": "execute_iframe_embed_auditor_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0036",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "iframe-embed-auditor-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/cookie-header-sniffer-v4": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Set-Cookie Header Inspector (Tier 4)",
+        "description": "Inspects Set-Cookie headers for Secure, HttpOnly, and SameSite flags (Engine 4)",
+        "operationId": "execute_cookie_header_sniffer_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0037",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "cookie-header-sniffer-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/html-form-fields-parser-v4": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML Form Fields & Action Parser (Tier 4)",
+        "description": "Extracts form action URLs, methods, and input field names (Engine 4)",
+        "operationId": "execute_html_form_fields_parser_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0038",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-form-fields-parser-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/code-snippet-extractor-v4": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Code Snippet Extractor from Page (Tier 4)",
+        "description": "Extracts <pre> and <code> blocks with detected programming language (Engine 4)",
+        "operationId": "execute_code_snippet_extractor_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0039",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "code-snippet-extractor-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/favicon-ico-sniffer-v4": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "High-Resolution Favicon Finder (Tier 4)",
+        "description": "Finds apple-touch-icon, manifest icons, and standard favicons (Engine 4)",
+        "operationId": "execute_favicon_ico_sniffer_v4",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0040",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "favicon-ico-sniffer-v4",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/heading-hierarchy-auditor-v5": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Heading Hierarchy Auditor (H1-H6) (Tier 5)",
+        "description": "Audits semantic heading structure and checks for missing H1 tags (Engine 5)",
+        "operationId": "execute_heading_hierarchy_auditor_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0041",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "heading-hierarchy-auditor-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/email-miner-from-url-v5": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Email Miner from Webpage (Tier 5)",
+        "description": "Scrapes and de-obfuscates email addresses from live web pages (Engine 5)",
+        "operationId": "execute_email_miner_from_url_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0042",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "email-miner-from-url-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/phone-number-harvester-v5": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Phone Number Harvester (Tier 5)",
+        "description": "Scrapes international and local phone numbers from web content (Engine 5)",
+        "operationId": "execute_phone_number_harvester_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0043",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "phone-number-harvester-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/social-link-aggregator-v5": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social Profile Link Aggregator (Tier 5)",
+        "description": "Extracts Twitter, LinkedIn, GitHub, YouTube, and Instagram URLs (Engine 5)",
+        "operationId": "execute_social_link_aggregator_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0044",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "social-link-aggregator-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/pdf-document-finder-v5": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "PDF Document Asset Finder (Tier 5)",
+        "description": "Extracts all downloadable .pdf links with anchor text (Engine 5)",
+        "operationId": "execute_pdf_document_finder_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0045",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "pdf-document-finder-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/iframe-embed-auditor-v5": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "iFrame & Embed Element Auditor (Tier 5)",
+        "description": "Audits embedded iframes, video players, and sandboxed elements (Engine 5)",
+        "operationId": "execute_iframe_embed_auditor_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0046",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "iframe-embed-auditor-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/cookie-header-sniffer-v5": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Set-Cookie Header Inspector (Tier 5)",
+        "description": "Inspects Set-Cookie headers for Secure, HttpOnly, and SameSite flags (Engine 5)",
+        "operationId": "execute_cookie_header_sniffer_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0047",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "cookie-header-sniffer-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/html-form-fields-parser-v5": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML Form Fields & Action Parser (Tier 5)",
+        "description": "Extracts form action URLs, methods, and input field names (Engine 5)",
+        "operationId": "execute_html_form_fields_parser_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0048",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-form-fields-parser-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/code-snippet-extractor-v5": {
+      "post": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Code Snippet Extractor from Page (Tier 5)",
+        "description": "Extracts <pre> and <code> blocks with detected programming language (Engine 5)",
+        "operationId": "execute_code_snippet_extractor_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0049",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "code-snippet-extractor-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "html": {
+                    "type": "string",
+                    "example": "<h1>Headline</h1><p>Content</p>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/favicon-ico-sniffer-v5": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "High-Resolution Favicon Finder (Tier 5)",
+        "description": "Finds apple-touch-icon, manifest icons, and standard favicons (Engine 5)",
+        "operationId": "execute_favicon_ico_sniffer_v5",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0050",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "favicon-ico-sniffer-v5",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "RapidAPIKey": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Key",
+        "in": "header",
+        "description": "RapidAPI Hub Proxy Secret Key"
+      },
+      "RapidAPIHost": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Host",
+        "in": "header",
+        "description": "RapidAPI Hub Host Header (reborn-edge-01.cccarlogen.workers.dev)"
+      },
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Direct RebornEdge / Dodo Payments Workspace Bearer Token"
+      }
+    }
+  },
+  "security": [
+    {
+      "RapidAPIKey": [],
+      "RapidAPIHost": []
+    },
+    {
+      "BearerAuth": []
+    }
+  ],
+  "x-pricing-plans": {
+    "BASIC": {
+      "name": "Basic (Developer Free Tier)",
+      "price_usd": 0.0,
+      "quota": 100,
+      "rate_limit": "5 requests / sec",
+      "period": "MONTHLY"
+    },
+    "PRO": {
+      "name": "Pro (Startup Builder)",
+      "price_usd": 7.99,
+      "quota": 25000,
+      "rate_limit": "25 requests / sec",
+      "period": "MONTHLY"
+    },
+    "ULTRA": {
+      "name": "Ultra (Production Scale)",
+      "price_usd": 19.99,
+      "quota": 150000,
+      "rate_limit": "100 requests / sec",
+      "period": "MONTHLY"
+    },
+    "MEGA": {
+      "name": "Mega (Enterprise Uncapped)",
+      "price_usd": 79.99,
+      "quota": 1000000,
+      "overage_per_request_usd": 0.0002,
+      "rate_limit": "500 requests / sec",
+      "period": "MONTHLY"
+    }
+  }
+}

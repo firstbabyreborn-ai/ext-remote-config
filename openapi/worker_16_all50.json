@@ -1,0 +1,3393 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "RebornEdge 16: Quant, Gold/Forex & Financial Calculators Master Suite",
+    "version": "1.0.0",
+    "description": "Production 50-endpoint master OpenAPI 3.0.3 suite for Quant, Gold/Forex & Financial Calculators.\n\nPowered by Cloudflare V8 global edge network (https://reborn-edge-16.cccarlogen.workers.dev). Delivers sub-150ms execution worldwide with 0 cold starts. Supports RapidAPI proxy authentication (X-RapidAPI-Key) and direct Bearer Workspace tokens.",
+    "termsOfService": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+    "contact": {
+      "name": "RebornEdge Global Developer Platform",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+      "email": "support@amritraj-prosuite.dev"
+    },
+    "license": {
+      "name": "Commercial API License",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://reborn-edge-16.cccarlogen.workers.dev",
+      "description": "Production Cloudflare V8 Edge Router (reborn-edge-16)"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Quant, Gold/Forex & Financial Calculators",
+      "description": "Endpoints for Quant, Gold/Forex & Financial Calculators"
+    }
+  ],
+  "paths": {
+    "/v1/banking-iban-luhn-validator-01": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #01",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_01",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0751",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-02": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #02",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_02",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0752",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-03": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #03",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_03",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0753",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-04": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #04",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_04",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0754",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-05": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #05",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_05",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0755",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-06": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #06",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_06",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0756",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-07": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #07",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_07",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0757",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-08": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #08",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_08",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0758",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-09": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #09",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_09",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0759",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-10": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #10",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_10",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0760",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-11": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #11",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_11",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0761",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-12": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #12",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_12",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0762",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-13": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #13",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_13",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0763",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-14": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #14",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_14",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0764",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-15": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #15",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_15",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0765",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-16": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #16",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_16",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0766",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-17": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #17",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_17",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0767",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-18": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #18",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_18",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0768",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-19": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #19",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_19",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0769",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-20": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #20",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_20",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0770",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-21": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #21",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_21",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0771",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-22": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #22",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_22",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0772",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-23": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #23",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_23",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0773",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-24": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #24",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_24",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0774",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-25": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #25",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_25",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0775",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-26": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #26",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_26",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0776",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-27": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #27",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_27",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0777",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-28": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #28",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_28",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0778",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-29": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #29",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_29",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0779",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-30": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #30",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_30",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0780",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-31": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #31",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_31",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0781",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-32": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #32",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_32",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0782",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-33": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #33",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_33",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0783",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-34": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #34",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_34",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0784",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-35": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #35",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_35",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0785",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-36": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #36",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_36",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0786",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-37": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #37",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_37",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0787",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-38": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #38",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_38",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0788",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-39": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #39",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_39",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0789",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-40": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #40",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_40",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0790",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-41": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #41",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_41",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0791",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-42": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #42",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_42",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0792",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-43": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #43",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_43",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0793",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-44": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #44",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_44",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0794",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-45": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #45",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_45",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0795",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-46": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #46",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_46",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0796",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-47": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #47",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_47",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0797",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-48": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #48",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_48",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0798",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-49": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #49",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_49",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0799",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/banking-iban-luhn-validator-50": {
+      "get": {
+        "tags": [
+          "Quant, Gold/Forex & Financial Calculators"
+        ],
+        "summary": "IBAN, SWIFT & Luhn Mod-10 Checksum Validator #50",
+        "description": "Performs ISO 7064 Mod 97-10 IBAN checksum and Luhn algorithm verification",
+        "operationId": "execute_banking_iban_luhn_validator_50",
+        "parameters": [
+          {
+            "name": "card",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "example": "4532015112830366"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0800",
+                  "latency_ms": 12,
+                  "data": {
+                    "is_luhn_valid": true,
+                    "detected_brand": "Visa"
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "RapidAPIKey": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Key",
+        "in": "header",
+        "description": "RapidAPI Hub Proxy Secret Key"
+      },
+      "RapidAPIHost": {
+        "type": "apiKey",
+        "name": "X-RapidAPI-Host",
+        "in": "header",
+        "description": "RapidAPI Hub Host Header (reborn-edge-16.cccarlogen.workers.dev)"
+      },
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Direct RebornEdge / Dodo Payments Workspace Bearer Token"
+      }
+    }
+  },
+  "security": [
+    {
+      "RapidAPIKey": [],
+      "RapidAPIHost": []
+    },
+    {
+      "BearerAuth": []
+    }
+  ],
+  "x-pricing-plans": {
+    "BASIC": {
+      "name": "Basic (Developer Free Tier)",
+      "price_usd": 0.0,
+      "quota": 100,
+      "rate_limit": "5 requests / sec",
+      "period": "MONTHLY"
+    },
+    "PRO": {
+      "name": "Pro (Startup Builder)",
+      "price_usd": 7.99,
+      "quota": 25000,
+      "rate_limit": "25 requests / sec",
+      "period": "MONTHLY"
+    },
+    "ULTRA": {
+      "name": "Ultra (Production Scale)",
+      "price_usd": 19.99,
+      "quota": 150000,
+      "rate_limit": "100 requests / sec",
+      "period": "MONTHLY"
+    },
+    "MEGA": {
+      "name": "Mega (Enterprise Uncapped)",
+      "price_usd": 79.99,
+      "quota": 1000000,
+      "overage_per_request_usd": 0.0002,
+      "rate_limit": "500 requests / sec",
+      "period": "MONTHLY"
+    }
+  }
+}
