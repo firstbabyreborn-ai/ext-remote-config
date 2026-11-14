@@ -12482,10 +12482,10 @@
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
     "schedule_days": 200,
-    "published_count": 5,
-    "current_autopilot_day": 2,
+    "published_count": 10,
+    "current_autopilot_day": 3,
     "base_domain": "cccarlogen.workers.dev",
-    "updated_at": "2026-11-13T16:33:59.992775+00:00",
+    "updated_at": "2026-11-14T02:43:12.876204+00:00",
     "apis": [
       {
         "id": "0001",
@@ -12537,45 +12537,45 @@
         "slug": "web-hyperlinks-crawler",
         "title": "Web Hyperlinks Crawler",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/web-hyperlinks-crawler",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0007",
         "slug": "html-image-asset-extractor",
         "title": "HTML Image Asset Extractor",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/html-image-asset-extractor",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0008",
         "slug": "readability-score-analyzer",
         "title": "Readability Score Analyzer",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/readability-score-analyzer",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0009",
         "slug": "keyword-frequency-counter",
         "title": "Keyword Frequency Counter",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/keyword-frequency-counter",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0010",
         "slug": "page-content-summary",
         "title": "Page Content Summary Stripper",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/page-content-summary",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0011",
