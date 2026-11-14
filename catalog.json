@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-13T16:33:29.908486+00:00",
+  "updated_at": "2026-11-14T02:41:50.878132+00:00",
   "total_extensions": 216,
-  "live_firefox_count": 8,
+  "live_firefox_count": 12,
   "live_edge_count": 1,
   "catalog_hub_url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog",
   "extensions": [
@@ -337,10 +337,10 @@
       "short_description": "Speed up or slow down any HTML5 video from 0.1x to 16x with fine-grain step buttons and keyboard shortcuts.",
       "gecko_id": "video-speed-controller-pro@amritraj-prosuite.dev",
       "edge_product_id": "",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/video-speed-controller-pro-021/",
       "edge_url": "",
-      "edge_status": "unregistered",
-      "status": "scheduled"
+      "edge_status": "awaiting_product_id",
+      "status": "live"
     },
     {
       "id": "022",
@@ -657,10 +657,10 @@
       "short_description": "Convert and export any webpage HTML table directly into formatted CSV or Excel files with one click.",
       "gecko_id": "html-table-to-csv-exporter@amritraj-prosuite.dev",
       "edge_product_id": "",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/html-table-to-csv-exporter/",
       "edge_url": "",
-      "edge_status": "unregistered",
-      "status": "scheduled"
+      "edge_status": "awaiting_product_id",
+      "status": "live"
     },
     {
       "id": "042",
@@ -2273,10 +2273,10 @@
       "short_description": "Float an XAU/USD lot calculator, daily drawdown guard & 1:2 RR simulator over live charts.",
       "gecko_id": "gold-xauusd-chart-hud@amritraj-prosuite.dev",
       "edge_product_id": "",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/gold-xauusd-chart-hud/",
       "edge_url": "",
-      "edge_status": "unregistered",
-      "status": "scheduled"
+      "edge_status": "awaiting_product_id",
+      "status": "live"
     },
     {
       "id": "143",
@@ -3233,10 +3233,10 @@
       "short_description": "Sniff .m3u8 HLS playlists, pick 1080p/720p quality, decrypt AES-128 & merge TS/MP4 locally.",
       "gecko_id": "hls-m3u8-stream-merger@amritraj-prosuite.dev",
       "edge_product_id": "",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/hls-m3u8-stream-merger/",
       "edge_url": "",
-      "edge_status": "unregistered",
-      "status": "scheduled"
+      "edge_status": "awaiting_product_id",
+      "status": "live"
     },
     {
       "id": "203",
