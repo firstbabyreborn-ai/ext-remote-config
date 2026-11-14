@@ -1,0 +1,128 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "HTML Image Asset Extractor",
+    "description": "Extracts all <img> tags, src, srcset, alt text, and dimensions\n\nHigh-speed Cloudflare V8 edge microservice with sub-150ms execution. Part of the RebornEdge Global API Suite.",
+    "version": "1.0.0",
+    "termsOfService": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+    "contact": {
+      "name": "RebornEdge Developer Platform",
+      "url": "https://firstbabyreborn-ai.github.io/ext-remote-config/",
+      "email": "support@amritraj-prosuite.dev"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://reborn-edge-01.cccarlogen.workers.dev",
+      "description": "Production Cloudflare Edge Server"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Live Web, Scraping & SEO Intelligence",
+      "description": "Institutional Live Web, Scraping & SEO Intelligence Endpoints"
+    }
+  ],
+  "paths": {
+    "/v1/html-image-asset-extractor": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "HTML Image Asset Extractor",
+        "description": "Extracts all <img> tags, src, srcset, alt text, and dimensions",
+        "operationId": "execute_html_image_asset_extractor",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://example.com"
+            },
+            "description": "Target webpage URL to process"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0007",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "html-image-asset-extractor",
+                    "title": "Example Domain",
+                    "word_count": 42
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-pricing-plans": {
+    "BASIC": {
+      "name": "Basic (Developer Free Tier)",
+      "price_usd": 0.0,
+      "quota": 100,
+      "rate_limit": "5 requests / sec",
+      "period": "MONTHLY"
+    },
+    "PRO": {
+      "name": "Pro (Startup Builder)",
+      "price_usd": 7.99,
+      "quota": 25000,
+      "rate_limit": "25 requests / sec",
+      "period": "MONTHLY"
+    },
+    "ULTRA": {
+      "name": "Ultra (Production Scale)",
+      "price_usd": 19.99,
+      "quota": 150000,
+      "rate_limit": "100 requests / sec",
+      "period": "MONTHLY"
+    },
+    "MEGA": {
+      "name": "Mega (Enterprise Uncapped)",
+      "price_usd": 79.99,
+      "quota": 1000000,
+      "overage_per_request_usd": 0.0002,
+      "rate_limit": "500 requests / sec",
+      "period": "MONTHLY"
+    }
+  }
+}

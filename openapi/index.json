@@ -1,0 +1,112 @@
+{
+  "url-to-markdown": {
+    "id": "0001",
+    "title": "URL to Clean LLM Markdown",
+    "slug": "url-to-markdown",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/url-to-markdown",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0001.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/url-to-markdown",
+    "status": "PUBLIC_LIVE"
+  },
+  "html-to-markdown": {
+    "id": "0002",
+    "title": "HTML to Clean Markdown",
+    "slug": "html-to-markdown",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/html-to-markdown",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0002.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/html-to-markdown",
+    "status": "PUBLIC_LIVE"
+  },
+  "article-main-text": {
+    "id": "0003",
+    "title": "Article Main Text Extractor",
+    "slug": "article-main-text",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/article-main-text",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0003.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/article-main-text",
+    "status": "PUBLIC_LIVE"
+  },
+  "webpage-metadata-extractor": {
+    "id": "0004",
+    "title": "Webpage Metadata Extractor",
+    "slug": "webpage-metadata-extractor",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/webpage-metadata-extractor",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0004.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/webpage-metadata-extractor",
+    "status": "PUBLIC_LIVE"
+  },
+  "html-table-to-json": {
+    "id": "0005",
+    "title": "HTML Table to JSON Matrix",
+    "slug": "html-table-to-json",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/html-table-to-json",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0005.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/html-table-to-json",
+    "status": "PUBLIC_LIVE"
+  },
+  "web-hyperlinks-crawler": {
+    "id": "0006",
+    "title": "Web Hyperlinks Crawler",
+    "slug": "web-hyperlinks-crawler",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/web-hyperlinks-crawler",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0006.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/web-hyperlinks-crawler",
+    "status": "PUBLIC_LIVE"
+  },
+  "html-image-asset-extractor": {
+    "id": "0007",
+    "title": "HTML Image Asset Extractor",
+    "slug": "html-image-asset-extractor",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/html-image-asset-extractor",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0007.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/html-image-asset-extractor",
+    "status": "PUBLIC_LIVE"
+  },
+  "readability-score-analyzer": {
+    "id": "0008",
+    "title": "Readability Score Analyzer",
+    "slug": "readability-score-analyzer",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/readability-score-analyzer",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0008.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/readability-score-analyzer",
+    "status": "PUBLIC_LIVE"
+  },
+  "keyword-frequency-counter": {
+    "id": "0009",
+    "title": "Keyword Frequency Counter",
+    "slug": "keyword-frequency-counter",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/keyword-frequency-counter",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0009.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/keyword-frequency-counter",
+    "status": "PUBLIC_LIVE"
+  },
+  "page-content-summary": {
+    "id": "0010",
+    "title": "Page Content Summary Stripper",
+    "slug": "page-content-summary",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "worker_name": "reborn-edge-01",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/page-content-summary",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0010.json",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/page-content-summary",
+    "status": "PUBLIC_LIVE"
+  }
+}
