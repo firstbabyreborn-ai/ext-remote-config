@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-14T15:36:26.768258+00:00",
+  "updated_at": "2026-11-15T03:10:41.658179+00:00",
   "total_extensions": 216,
-  "live_firefox_count": 12,
+  "live_firefox_count": 15,
   "live_edge_count": 1,
   "catalog_hub_url": "https://github.com/firstbabyreborn-ai/ext-remote-config#pro-suite-catalog",
   "extensions": [
@@ -33,10 +33,10 @@
       "short_description": "Compress and convert heavy PNG files to lightweight JPG images with custom quality controls. 100% client-side.",
       "gecko_id": "png-to-jpg-compressor@amritraj-prosuite.dev",
       "edge_product_id": "",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/png-to-jpg-compressor/",
       "edge_url": "",
-      "edge_status": "unregistered",
-      "status": "scheduled"
+      "edge_status": "awaiting_product_id",
+      "status": "live"
     },
     {
       "id": "003",
@@ -353,10 +353,10 @@
       "short_description": "Boost quiet videos and browser tab audio up to 600% using Web Audio API Gain nodes without distortion.",
       "gecko_id": "volume-booster-600@amritraj-prosuite.dev",
       "edge_product_id": "",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/volume-booster-600-022/",
       "edge_url": "",
-      "edge_status": "unregistered",
-      "status": "scheduled"
+      "edge_status": "awaiting_product_id",
+      "status": "live"
     },
     {
       "id": "023",
@@ -673,10 +673,10 @@
       "short_description": "Instantly find and extract all email addresses and contact links from the current webpage into clean CSV lists.",
       "gecko_id": "email-lead-harvester-pro@amritraj-prosuite.dev",
       "edge_product_id": "",
-      "firefox_url": "",
+      "firefox_url": "https://addons.mozilla.org/en-US/firefox/addon/email-lead-harvester-pro/",
       "edge_url": "",
-      "edge_status": "unregistered",
-      "status": "scheduled"
+      "edge_status": "awaiting_product_id",
+      "status": "live"
     },
     {
       "id": "043",
@@ -995,7 +995,7 @@
       "edge_product_id": "",
       "firefox_url": "",
       "edge_url": "",
-      "edge_status": "unregistered",
+      "edge_status": "awaiting_product_id",
       "status": "scheduled"
     },
     {
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 12,
-    "current_autopilot_day": 3,
+    "published_count": 18,
+    "current_autopilot_day": 4,
     "extensions": [
       {
         "id": "0001",
@@ -5290,9 +5290,9 @@
         "slug": "tw-glass-modal-glass",
         "displayName": "Modal Glass - Tailwind Frosted Glassmorphism Studios",
         "niche": "Modern Frontend, Tailwind & CSS Systems",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/tw-glass-modal-glass",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0203",
@@ -6190,9 +6190,9 @@
         "slug": "dockerfile-python-fastapi",
         "displayName": "Python Fastapi - Multi-Stage Rootless Dockerfile Generators",
         "niche": "DevOps, Containers, Kubernetes & CI/CD",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/dockerfile-python-fastapi",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0303",
@@ -7090,9 +7090,9 @@
         "slug": "secret-shield-github-pat-scan",
         "displayName": "Github Pat Scan - .env & Hardcoded Secret Leak Shields",
         "niche": "Security, Secret Scanning & Auth Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/secret-shield-github-pat-scan",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0403",
@@ -7990,9 +7990,9 @@
         "slug": "postgres-cte-row-number-rank",
         "displayName": "Row Number Rank - PostgreSQL CTEs & Window Functions",
         "niche": "Backend, Database & SQL Optimization",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/postgres-cte-row-number-rank",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0503",
@@ -8890,9 +8890,9 @@
         "slug": "curl-convert-curl-to-axios",
         "displayName": "Curl To Axios - cURL to Fetch, Axios, Python & Go Converters",
         "niche": "REST, GraphQL, gRPC & API Client Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/curl-convert-curl-to-axios",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0603",
@@ -9790,9 +9790,9 @@
         "slug": "json-to-ts-optional-nullable-ts",
         "displayName": "Optional Nullable Ts - JSON to Strict TypeScript Interfaces",
         "niche": "Data Serialization, Schema Validation & Types",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/json-to-ts-optional-nullable-ts",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0703",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-14T15:38:04.419342+00:00"
+    "updated_at": "2026-11-15T03:12:55.390978+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
