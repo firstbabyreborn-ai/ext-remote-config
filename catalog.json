@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-16T08:35:44.805513+00:00",
+  "updated_at": "2026-11-16T16:07:52.426416+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-16T08:37:38.275943+00:00"
+    "updated_at": "2026-11-16T16:09:25.908845+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
