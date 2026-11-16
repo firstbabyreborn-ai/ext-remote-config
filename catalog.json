@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-15T06:30:28.408763+00:00",
+  "updated_at": "2026-11-16T03:57:36.067922+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 18,
-    "current_autopilot_day": 4,
+    "published_count": 24,
+    "current_autopilot_day": 5,
     "extensions": [
       {
         "id": "0001",
@@ -3499,9 +3499,9 @@
         "slug": "cursorrules-python",
         "displayName": "Python - Cursor Rules Architects",
         "niche": "AI, LLM & Cursor Workspace Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/cursorrules-python",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0004",
@@ -4399,9 +4399,9 @@
         "slug": "pine-trend-macd-pro",
         "displayName": "Macd Pro - Pine Script v5 Trend & Momentum Indicators",
         "niche": "Quant, Pine Script v5 & Algorithmic Trading",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/pine-trend-macd-pro",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0104",
@@ -5299,9 +5299,9 @@
         "slug": "tw-glass-navbar-glass",
         "displayName": "Navbar Glass - Tailwind Frosted Glassmorphism Studios",
         "niche": "Modern Frontend, Tailwind & CSS Systems",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/tw-glass-navbar-glass",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0204",
@@ -6199,9 +6199,9 @@
         "slug": "dockerfile-golang-binary",
         "displayName": "Golang Binary - Multi-Stage Rootless Dockerfile Generators",
         "niche": "DevOps, Containers, Kubernetes & CI/CD",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/dockerfile-golang-binary",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0304",
@@ -10690,9 +10690,9 @@
         "slug": "git-rebase-rebase-onto-branch",
         "displayName": "Rebase Onto Branch - Git Interactive Rebase & Squashing Command Helpers",
         "niche": "Advanced Git, Branching & Code Review Workflows",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/git-rebase-rebase-onto-branch",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0803",
@@ -11590,9 +11590,9 @@
         "slug": "vitest-jest-mock-fetch-global",
         "displayName": "Mock Fetch Global - Vitest & Jest Unit Test Scaffolding & Mocks",
         "niche": "Testing, Benchmarking, Performance & DevTools",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/vitest-jest-mock-fetch-global",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0903",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-15T06:32:11.567916+00:00"
+    "updated_at": "2026-11-16T04:00:24.358818+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
