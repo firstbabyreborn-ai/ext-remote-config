@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-16T16:07:52.426416+00:00",
+  "updated_at": "2026-11-17T03:05:47.854881+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 24,
-    "current_autopilot_day": 5,
+    "published_count": 30,
+    "current_autopilot_day": 6,
     "extensions": [
       {
         "id": "0001",
@@ -7099,9 +7099,9 @@
         "slug": "secret-shield-stripe-secret-scan",
         "displayName": "Stripe Secret Scan - .env & Hardcoded Secret Leak Shields",
         "niche": "Security, Secret Scanning & Auth Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/secret-shield-stripe-secret-scan",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0404",
@@ -7999,9 +7999,9 @@
         "slug": "postgres-cte-dense-rank-ntile",
         "displayName": "Dense Rank Ntile - PostgreSQL CTEs & Window Functions",
         "niche": "Backend, Database & SQL Optimization",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/postgres-cte-dense-rank-ntile",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0504",
@@ -8899,9 +8899,9 @@
         "slug": "curl-convert-curl-to-requests",
         "displayName": "Curl To Requests - cURL to Fetch, Axios, Python & Go Converters",
         "niche": "REST, GraphQL, gRPC & API Client Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/curl-convert-curl-to-requests",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0604",
@@ -9799,9 +9799,9 @@
         "slug": "json-to-ts-array-elements-ts",
         "displayName": "Array Elements Ts - JSON to Strict TypeScript Interfaces",
         "niche": "Data Serialization, Schema Validation & Types",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/json-to-ts-array-elements-ts",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0704",
@@ -10699,9 +10699,9 @@
         "slug": "git-rebase-drop-commit-history",
         "displayName": "Drop Commit History - Git Interactive Rebase & Squashing Command Helpers",
         "niche": "Advanced Git, Branching & Code Review Workflows",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/git-rebase-drop-commit-history",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0804",
@@ -11599,9 +11599,9 @@
         "slug": "vitest-jest-spy-on-function-call",
         "displayName": "Spy On Function Call - Vitest & Jest Unit Test Scaffolding & Mocks",
         "niche": "Testing, Benchmarking, Performance & DevTools",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/vitest-jest-spy-on-function-call",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0904",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-16T16:09:25.908845+00:00"
+    "updated_at": "2026-11-17T03:08:06.058537+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
