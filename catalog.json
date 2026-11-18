@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-17T15:48:23.546199+00:00",
+  "updated_at": "2026-11-18T03:56:36.000771+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 30,
-    "current_autopilot_day": 6,
+    "published_count": 36,
+    "current_autopilot_day": 7,
     "extensions": [
       {
         "id": "0001",
@@ -3508,9 +3508,9 @@
         "slug": "cursorrules-fastapi",
         "displayName": "Fastapi - Cursor Rules Architects",
         "niche": "AI, LLM & Cursor Workspace Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/cursorrules-fastapi",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0005",
@@ -4408,9 +4408,9 @@
         "slug": "pine-trend-rsi-divergence",
         "displayName": "Rsi Divergence - Pine Script v5 Trend & Momentum Indicators",
         "niche": "Quant, Pine Script v5 & Algorithmic Trading",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/pine-trend-rsi-divergence",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0105",
@@ -5308,9 +5308,9 @@
         "slug": "tw-glass-sidebar-glass",
         "displayName": "Sidebar Glass - Tailwind Frosted Glassmorphism Studios",
         "niche": "Modern Frontend, Tailwind & CSS Systems",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/tw-glass-sidebar-glass",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0205",
@@ -6208,9 +6208,9 @@
         "slug": "dockerfile-rust-musl",
         "displayName": "Rust Musl - Multi-Stage Rootless Dockerfile Generators",
         "niche": "DevOps, Containers, Kubernetes & CI/CD",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/dockerfile-rust-musl",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0305",
@@ -7108,9 +7108,9 @@
         "slug": "secret-shield-openai-key-scan",
         "displayName": "Openai Key Scan - .env & Hardcoded Secret Leak Shields",
         "niche": "Security, Secret Scanning & Auth Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/secret-shield-openai-key-scan",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0405",
@@ -8008,9 +8008,9 @@
         "slug": "postgres-cte-lag-lead-offset",
         "displayName": "Lag Lead Offset - PostgreSQL CTEs & Window Functions",
         "niche": "Backend, Database & SQL Optimization",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/postgres-cte-lag-lead-offset",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0505",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-17T15:50:06.252746+00:00"
+    "updated_at": "2026-11-18T03:59:06.111079+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
