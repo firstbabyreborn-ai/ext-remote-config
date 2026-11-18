@@ -12482,10 +12482,10 @@
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
     "schedule_days": 200,
-    "published_count": 25,
-    "current_autopilot_day": 6,
+    "published_count": 30,
+    "current_autopilot_day": 7,
     "base_domain": "cccarlogen.workers.dev",
-    "updated_at": "2026-11-17T15:50:10.113130+00:00",
+    "updated_at": "2026-11-18T03:59:24.676145+00:00",
     "apis": [
       {
         "id": "0001",
@@ -12717,45 +12717,45 @@
         "slug": "iframe-embed-auditor-v3",
         "title": "iFrame & Embed Element Auditor (Tier 3)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/iframe-embed-auditor-v3",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0027",
         "slug": "cookie-header-sniffer-v3",
         "title": "Set-Cookie Header Inspector (Tier 3)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/cookie-header-sniffer-v3",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0028",
         "slug": "html-form-fields-parser-v3",
         "title": "HTML Form Fields & Action Parser (Tier 3)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/html-form-fields-parser-v3",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0029",
         "slug": "code-snippet-extractor-v3",
         "title": "Code Snippet Extractor from Page (Tier 3)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/code-snippet-extractor-v3",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0030",
         "slug": "favicon-ico-sniffer-v3",
         "title": "High-Resolution Favicon Finder (Tier 3)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/favicon-ico-sniffer-v3",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0031",
