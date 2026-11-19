@@ -12482,10 +12482,10 @@
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
     "schedule_days": 200,
-    "published_count": 30,
-    "current_autopilot_day": 7,
+    "published_count": 35,
+    "current_autopilot_day": 8,
     "base_domain": "cccarlogen.workers.dev",
-    "updated_at": "2026-11-18T03:59:24.676145+00:00",
+    "updated_at": "2026-11-19T02:36:20.086854+00:00",
     "apis": [
       {
         "id": "0001",
@@ -12762,45 +12762,45 @@
         "slug": "heading-hierarchy-auditor-v4",
         "title": "Heading Hierarchy Auditor (H1-H6) (Tier 4)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/heading-hierarchy-auditor-v4",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0032",
         "slug": "email-miner-from-url-v4",
         "title": "Email Miner from Webpage (Tier 4)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/email-miner-from-url-v4",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0033",
         "slug": "phone-number-harvester-v4",
         "title": "Phone Number Harvester (Tier 4)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/phone-number-harvester-v4",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0034",
         "slug": "social-link-aggregator-v4",
         "title": "Social Profile Link Aggregator (Tier 4)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/social-link-aggregator-v4",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0035",
         "slug": "pdf-document-finder-v4",
         "title": "PDF Document Asset Finder (Tier 4)",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/pdf-document-finder-v4",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0036",

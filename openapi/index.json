@@ -1,7 +1,7 @@
 {
   "total_master_bundles": 20,
   "total_endpoints": 1000,
-  "updated_at": "2026-11-18T03:59:23.529754+00:00",
+  "updated_at": "2026-11-19T02:36:18.432736+00:00",
   "master_bundles": [
     {
       "worker_idx": 1,
@@ -379,7 +379,7 @@
         "ULTRA": "$19.90 / mo",
         "MEGA": "$79.00 / mo"
       },
-      "updated_at": "2026-11-17T03:08:52.361587+00:00"
+      "updated_at": "2026-11-18T03:59:23.565778+00:00"
     },
     "iframe-embed-auditor-v2": {
       "id": "0016",
@@ -530,6 +530,56 @@
       "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/favicon-ico-sniffer-v3",
       "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0030.json",
       "updated_at": "2026-11-18T03:59:14.553543+00:00"
+    },
+    "heading-hierarchy-auditor-v4": {
+      "id": "0031",
+      "title": "Heading Hierarchy Auditor (H1-H6) (Tier 4)",
+      "slug": "heading-hierarchy-auditor-v4",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/heading-hierarchy-auditor-v4",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/heading-hierarchy-auditor-v4",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0031.json",
+      "updated_at": "2026-11-19T02:36:03.881315+00:00"
+    },
+    "email-miner-from-url-v4": {
+      "id": "0032",
+      "title": "Email Miner from Webpage (Tier 4)",
+      "slug": "email-miner-from-url-v4",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/email-miner-from-url-v4",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/email-miner-from-url-v4",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0032.json",
+      "updated_at": "2026-11-19T02:36:05.451939+00:00"
+    },
+    "phone-number-harvester-v4": {
+      "id": "0033",
+      "title": "Phone Number Harvester (Tier 4)",
+      "slug": "phone-number-harvester-v4",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/phone-number-harvester-v4",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/phone-number-harvester-v4",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0033.json",
+      "updated_at": "2026-11-19T02:36:06.310535+00:00"
+    },
+    "social-link-aggregator-v4": {
+      "id": "0034",
+      "title": "Social Profile Link Aggregator (Tier 4)",
+      "slug": "social-link-aggregator-v4",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/social-link-aggregator-v4",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/social-link-aggregator-v4",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0034.json",
+      "updated_at": "2026-11-19T02:36:07.187254+00:00"
+    },
+    "pdf-document-finder-v4": {
+      "id": "0035",
+      "title": "PDF Document Asset Finder (Tier 4)",
+      "slug": "pdf-document-finder-v4",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/pdf-document-finder-v4",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/pdf-document-finder-v4",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0035.json",
+      "updated_at": "2026-11-19T02:36:08.617679+00:00"
     }
   },
   "url-to-markdown": {
@@ -706,7 +756,7 @@
       "ULTRA": "$19.90 / mo",
       "MEGA": "$79.00 / mo"
     },
-    "updated_at": "2026-11-18T03:59:23.565778+00:00"
+    "updated_at": "2026-11-19T02:36:18.474386+00:00"
   },
   "iframe-embed-auditor-v2": {
     "id": "0016",
@@ -857,5 +907,55 @@
     "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/favicon-ico-sniffer-v3",
     "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0030.json",
     "updated_at": "2026-11-18T03:59:14.553543+00:00"
+  },
+  "heading-hierarchy-auditor-v4": {
+    "id": "0031",
+    "title": "Heading Hierarchy Auditor (H1-H6) (Tier 4)",
+    "slug": "heading-hierarchy-auditor-v4",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/heading-hierarchy-auditor-v4",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/heading-hierarchy-auditor-v4",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0031.json",
+    "updated_at": "2026-11-19T02:36:03.881315+00:00"
+  },
+  "email-miner-from-url-v4": {
+    "id": "0032",
+    "title": "Email Miner from Webpage (Tier 4)",
+    "slug": "email-miner-from-url-v4",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/email-miner-from-url-v4",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/email-miner-from-url-v4",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0032.json",
+    "updated_at": "2026-11-19T02:36:05.451939+00:00"
+  },
+  "phone-number-harvester-v4": {
+    "id": "0033",
+    "title": "Phone Number Harvester (Tier 4)",
+    "slug": "phone-number-harvester-v4",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/phone-number-harvester-v4",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/phone-number-harvester-v4",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0033.json",
+    "updated_at": "2026-11-19T02:36:06.310535+00:00"
+  },
+  "social-link-aggregator-v4": {
+    "id": "0034",
+    "title": "Social Profile Link Aggregator (Tier 4)",
+    "slug": "social-link-aggregator-v4",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/social-link-aggregator-v4",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/social-link-aggregator-v4",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0034.json",
+    "updated_at": "2026-11-19T02:36:07.187254+00:00"
+  },
+  "pdf-document-finder-v4": {
+    "id": "0035",
+    "title": "PDF Document Asset Finder (Tier 4)",
+    "slug": "pdf-document-finder-v4",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/pdf-document-finder-v4",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/pdf-document-finder-v4",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0035.json",
+    "updated_at": "2026-11-19T02:36:08.617679+00:00"
   }
 }
