@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-18T03:56:36.000771+00:00",
+  "updated_at": "2026-11-19T02:32:45.403411+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 36,
-    "current_autopilot_day": 7,
+    "published_count": 42,
+    "current_autopilot_day": 8,
     "extensions": [
       {
         "id": "0001",
@@ -3517,9 +3517,9 @@
         "slug": "cursorrules-django",
         "displayName": "Django - Cursor Rules Architects",
         "niche": "AI, LLM & Cursor Workspace Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/cursorrules-django",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0006",
@@ -4417,9 +4417,9 @@
         "slug": "pine-trend-stochastic-mtf",
         "displayName": "Stochastic Mtf - Pine Script v5 Trend & Momentum Indicators",
         "niche": "Quant, Pine Script v5 & Algorithmic Trading",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/pine-trend-stochastic-mtf",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0106",
@@ -8908,9 +8908,9 @@
         "slug": "curl-convert-curl-to-golang-http",
         "displayName": "Curl To Golang Http - cURL to Fetch, Axios, Python & Go Converters",
         "niche": "REST, GraphQL, gRPC & API Client Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/curl-convert-curl-to-golang-http",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0605",
@@ -9808,9 +9808,9 @@
         "slug": "json-to-ts-readonly-props-ts",
         "displayName": "Readonly Props Ts - JSON to Strict TypeScript Interfaces",
         "niche": "Data Serialization, Schema Validation & Types",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/json-to-ts-readonly-props-ts",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0705",
@@ -10708,9 +10708,9 @@
         "slug": "git-rebase-edit-commit-message",
         "displayName": "Edit Commit Message - Git Interactive Rebase & Squashing Command Helpers",
         "niche": "Advanced Git, Branching & Code Review Workflows",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/git-rebase-edit-commit-message",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0805",
@@ -11608,9 +11608,9 @@
         "slug": "vitest-jest-mock-timer-fake",
         "displayName": "Mock Timer Fake - Vitest & Jest Unit Test Scaffolding & Mocks",
         "niche": "Testing, Benchmarking, Performance & DevTools",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/vitest-jest-mock-timer-fake",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0905",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-18T03:59:06.111079+00:00"
+    "updated_at": "2026-11-19T02:36:00.153983+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
