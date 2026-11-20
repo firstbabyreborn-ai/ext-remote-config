@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-19T16:47:08.048357+00:00",
+  "updated_at": "2026-11-20T02:24:36.667841+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 42,
-    "current_autopilot_day": 8,
+    "published_count": 48,
+    "current_autopilot_day": 9,
     "extensions": [
       {
         "id": "0001",
@@ -5317,9 +5317,9 @@
         "slug": "tw-glass-dropdown-glass",
         "displayName": "Dropdown Glass - Tailwind Frosted Glassmorphism Studios",
         "niche": "Modern Frontend, Tailwind & CSS Systems",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/tw-glass-dropdown-glass",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0206",
@@ -6217,9 +6217,9 @@
         "slug": "dockerfile-java-spring",
         "displayName": "Java Spring - Multi-Stage Rootless Dockerfile Generators",
         "niche": "DevOps, Containers, Kubernetes & CI/CD",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/dockerfile-java-spring",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0306",
@@ -7117,9 +7117,9 @@
         "slug": "secret-shield-jwt-token-scan",
         "displayName": "Jwt Token Scan - .env & Hardcoded Secret Leak Shields",
         "niche": "Security, Secret Scanning & Auth Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/secret-shield-jwt-token-scan",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0406",
@@ -8017,9 +8017,9 @@
         "slug": "postgres-cte-sum-running-total",
         "displayName": "Sum Running Total - PostgreSQL CTEs & Window Functions",
         "niche": "Backend, Database & SQL Optimization",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/postgres-cte-sum-running-total",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0506",
@@ -8917,9 +8917,9 @@
         "slug": "curl-convert-curl-to-rust-reqwest",
         "displayName": "Curl To Rust Reqwest - cURL to Fetch, Axios, Python & Go Converters",
         "niche": "REST, GraphQL, gRPC & API Client Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/curl-convert-curl-to-rust-reqwest",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0606",
@@ -9817,9 +9817,9 @@
         "slug": "json-to-ts-discriminated-union-ts",
         "displayName": "Discriminated Union Ts - JSON to Strict TypeScript Interfaces",
         "niche": "Data Serialization, Schema Validation & Types",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/json-to-ts-discriminated-union-ts",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0706",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-19T16:48:57.805493+00:00"
+    "updated_at": "2026-11-20T02:27:32.563751+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
