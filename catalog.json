@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-20T06:30:30.293312+00:00",
+  "updated_at": "2026-11-21T01:39:36.806125+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 48,
-    "current_autopilot_day": 9,
+    "published_count": 54,
+    "current_autopilot_day": 10,
     "extensions": [
       {
         "id": "0001",
@@ -3526,9 +3526,9 @@
         "slug": "cursorrules-rust",
         "displayName": "Rust - Cursor Rules Architects",
         "niche": "AI, LLM & Cursor Workspace Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/cursorrules-rust",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0007",
@@ -4426,9 +4426,9 @@
         "slug": "pine-trend-adx-di",
         "displayName": "Adx Di - Pine Script v5 Trend & Momentum Indicators",
         "niche": "Quant, Pine Script v5 & Algorithmic Trading",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/pine-trend-adx-di",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0107",
@@ -5326,9 +5326,9 @@
         "slug": "tw-glass-button-glass",
         "displayName": "Button Glass - Tailwind Frosted Glassmorphism Studios",
         "niche": "Modern Frontend, Tailwind & CSS Systems",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/tw-glass-button-glass",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0207",
@@ -6226,9 +6226,9 @@
         "slug": "dockerfile-ruby-rails",
         "displayName": "Ruby Rails - Multi-Stage Rootless Dockerfile Generators",
         "niche": "DevOps, Containers, Kubernetes & CI/CD",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/dockerfile-ruby-rails",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0307",
@@ -10717,9 +10717,9 @@
         "slug": "git-rebase-split-commit-into-two",
         "displayName": "Split Commit Into Two - Git Interactive Rebase & Squashing Command Helpers",
         "niche": "Advanced Git, Branching & Code Review Workflows",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/git-rebase-split-commit-into-two",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0806",
@@ -11617,9 +11617,9 @@
         "slug": "vitest-jest-snapshot-test-inline",
         "displayName": "Snapshot Test Inline - Vitest & Jest Unit Test Scaffolding & Mocks",
         "niche": "Testing, Benchmarking, Performance & DevTools",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/vitest-jest-snapshot-test-inline",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0906",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-20T06:32:09.797973+00:00"
+    "updated_at": "2026-11-21T01:42:14.526712+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
