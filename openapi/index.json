@@ -1,7 +1,7 @@
 {
   "total_master_bundles": 20,
   "total_endpoints": 1000,
-  "updated_at": "2026-11-21T01:42:34.447101+00:00",
+  "updated_at": "2026-11-22T01:31:38.105849+00:00",
   "master_bundles": [
     {
       "worker_idx": 1,
@@ -379,7 +379,7 @@
         "ULTRA": "$19.90 / mo",
         "MEGA": "$79.00 / mo"
       },
-      "updated_at": "2026-11-20T02:27:52.814426+00:00"
+      "updated_at": "2026-11-21T01:42:34.482079+00:00"
     },
     "iframe-embed-auditor-v2": {
       "id": "0016",
@@ -680,6 +680,56 @@
       "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/pdf-document-finder-v5",
       "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0045.json",
       "updated_at": "2026-11-21T01:42:23.960349+00:00"
+    },
+    "iframe-embed-auditor-v5": {
+      "id": "0046",
+      "title": "iFrame & Embed Element Auditor (Tier 5)",
+      "slug": "iframe-embed-auditor-v5",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/iframe-embed-auditor-v5",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/iframe-embed-auditor-v5",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0046.json",
+      "updated_at": "2026-11-22T01:31:17.028099+00:00"
+    },
+    "cookie-header-sniffer-v5": {
+      "id": "0047",
+      "title": "Set-Cookie Header Inspector (Tier 5)",
+      "slug": "cookie-header-sniffer-v5",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/cookie-header-sniffer-v5",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/cookie-header-sniffer-v5",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0047.json",
+      "updated_at": "2026-11-22T01:31:18.974774+00:00"
+    },
+    "html-form-fields-parser-v5": {
+      "id": "0048",
+      "title": "HTML Form Fields & Action Parser (Tier 5)",
+      "slug": "html-form-fields-parser-v5",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/html-form-fields-parser-v5",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/html-form-fields-parser-v5",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0048.json",
+      "updated_at": "2026-11-22T01:31:19.894444+00:00"
+    },
+    "code-snippet-extractor-v5": {
+      "id": "0049",
+      "title": "Code Snippet Extractor from Page (Tier 5)",
+      "slug": "code-snippet-extractor-v5",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/code-snippet-extractor-v5",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/code-snippet-extractor-v5",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0049.json",
+      "updated_at": "2026-11-22T01:31:20.807620+00:00"
+    },
+    "favicon-ico-sniffer-v5": {
+      "id": "0050",
+      "title": "High-Resolution Favicon Finder (Tier 5)",
+      "slug": "favicon-ico-sniffer-v5",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/favicon-ico-sniffer-v5",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/favicon-ico-sniffer-v5",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0050.json",
+      "updated_at": "2026-11-22T01:31:22.275699+00:00"
     }
   },
   "url-to-markdown": {
@@ -856,7 +906,7 @@
       "ULTRA": "$19.90 / mo",
       "MEGA": "$79.00 / mo"
     },
-    "updated_at": "2026-11-21T01:42:34.482079+00:00"
+    "updated_at": "2026-11-22T01:31:38.166486+00:00"
   },
   "iframe-embed-auditor-v2": {
     "id": "0016",
@@ -1157,5 +1207,55 @@
     "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/pdf-document-finder-v5",
     "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0045.json",
     "updated_at": "2026-11-21T01:42:23.960349+00:00"
+  },
+  "iframe-embed-auditor-v5": {
+    "id": "0046",
+    "title": "iFrame & Embed Element Auditor (Tier 5)",
+    "slug": "iframe-embed-auditor-v5",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/iframe-embed-auditor-v5",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/iframe-embed-auditor-v5",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0046.json",
+    "updated_at": "2026-11-22T01:31:17.028099+00:00"
+  },
+  "cookie-header-sniffer-v5": {
+    "id": "0047",
+    "title": "Set-Cookie Header Inspector (Tier 5)",
+    "slug": "cookie-header-sniffer-v5",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/cookie-header-sniffer-v5",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/cookie-header-sniffer-v5",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0047.json",
+    "updated_at": "2026-11-22T01:31:18.974774+00:00"
+  },
+  "html-form-fields-parser-v5": {
+    "id": "0048",
+    "title": "HTML Form Fields & Action Parser (Tier 5)",
+    "slug": "html-form-fields-parser-v5",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/html-form-fields-parser-v5",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/html-form-fields-parser-v5",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0048.json",
+    "updated_at": "2026-11-22T01:31:19.894444+00:00"
+  },
+  "code-snippet-extractor-v5": {
+    "id": "0049",
+    "title": "Code Snippet Extractor from Page (Tier 5)",
+    "slug": "code-snippet-extractor-v5",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/code-snippet-extractor-v5",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/code-snippet-extractor-v5",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0049.json",
+    "updated_at": "2026-11-22T01:31:20.807620+00:00"
+  },
+  "favicon-ico-sniffer-v5": {
+    "id": "0050",
+    "title": "High-Resolution Favicon Finder (Tier 5)",
+    "slug": "favicon-ico-sniffer-v5",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-01.cccarlogen.workers.dev/v1/favicon-ico-sniffer-v5",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/favicon-ico-sniffer-v5",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0050.json",
+    "updated_at": "2026-11-22T01:31:22.275699+00:00"
   }
 }
