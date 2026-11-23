@@ -12482,10 +12482,10 @@
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
     "schedule_days": 200,
-    "published_count": 50,
-    "current_autopilot_day": 11,
+    "published_count": 55,
+    "current_autopilot_day": 12,
     "base_domain": "cccarlogen.workers.dev",
-    "updated_at": "2026-11-22T13:28:29.118563+00:00",
+    "updated_at": "2026-11-23T02:06:12.281571+00:00",
     "apis": [
       {
         "id": "0001",
@@ -12942,45 +12942,45 @@
         "slug": "og-social-parser-01",
         "title": "Social OpenGraph & Schema Parser #01",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-01",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0052",
         "slug": "og-social-parser-02",
         "title": "Social OpenGraph & Schema Parser #02",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-02",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0053",
         "slug": "og-social-parser-03",
         "title": "Social OpenGraph & Schema Parser #03",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-03",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0054",
         "slug": "og-social-parser-04",
         "title": "Social OpenGraph & Schema Parser #04",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-04",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0055",
         "slug": "og-social-parser-05",
         "title": "Social OpenGraph & Schema Parser #05",
         "category": "Live Web, Scraping & SEO Intelligence",
-        "is_published": false,
+        "is_published": true,
         "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-05",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0056",
