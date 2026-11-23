@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-22T13:26:45.539924+00:00",
+  "updated_at": "2026-11-23T02:03:11.115099+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 60,
-    "current_autopilot_day": 11,
+    "published_count": 66,
+    "current_autopilot_day": 12,
     "extensions": [
       {
         "id": "0001",
@@ -3535,9 +3535,9 @@
         "slug": "cursorrules-golang",
         "displayName": "Golang - Cursor Rules Architects",
         "niche": "AI, LLM & Cursor Workspace Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/cursorrules-golang",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0008",
@@ -4435,9 +4435,9 @@
         "slug": "pine-trend-vortex",
         "displayName": "Vortex - Pine Script v5 Trend & Momentum Indicators",
         "niche": "Quant, Pine Script v5 & Algorithmic Trading",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/pine-trend-vortex",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0108",
@@ -5335,9 +5335,9 @@
         "slug": "tw-glass-glow-border",
         "displayName": "Glow Border - Tailwind Frosted Glassmorphism Studios",
         "niche": "Modern Frontend, Tailwind & CSS Systems",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/tw-glass-glow-border",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0208",
@@ -6235,9 +6235,9 @@
         "slug": "dockerfile-php-laravel",
         "displayName": "Php Laravel - Multi-Stage Rootless Dockerfile Generators",
         "niche": "DevOps, Containers, Kubernetes & CI/CD",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/dockerfile-php-laravel",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0308",
@@ -7135,9 +7135,9 @@
         "slug": "secret-shield-db-url-scan",
         "displayName": "Db Url Scan - .env & Hardcoded Secret Leak Shields",
         "niche": "Security, Secret Scanning & Auth Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/secret-shield-db-url-scan",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0408",
@@ -8035,9 +8035,9 @@
         "slug": "postgres-cte-partition-by-date",
         "displayName": "Partition By Date - PostgreSQL CTEs & Window Functions",
         "niche": "Backend, Database & SQL Optimization",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/postgres-cte-partition-by-date",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0508",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-22T13:28:25.332829+00:00"
+    "updated_at": "2026-11-23T02:05:47.391333+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
