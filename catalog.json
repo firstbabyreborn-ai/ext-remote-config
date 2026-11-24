@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "updated_at": "2026-11-23T13:14:02.481635+00:00",
+  "updated_at": "2026-11-24T01:06:15.802639+00:00",
   "total_extensions": 216,
   "live_firefox_count": 15,
   "live_edge_count": 1,
@@ -3473,8 +3473,8 @@
     "schedule_days": 180,
     "publisher": "firstbabyreborn-ai",
     "registry_url": "https://open-vsx.org/publisher/firstbabyreborn-ai",
-    "published_count": 66,
-    "current_autopilot_day": 12,
+    "published_count": 72,
+    "current_autopilot_day": 13,
     "extensions": [
       {
         "id": "0001",
@@ -3544,9 +3544,9 @@
         "slug": "cursorrules-vue",
         "displayName": "Vue - Cursor Rules Architects",
         "niche": "AI, LLM & Cursor Workspace Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/cursorrules-vue",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0009",
@@ -4444,9 +4444,9 @@
         "slug": "pine-trend-ichimoku",
         "displayName": "Ichimoku - Pine Script v5 Trend & Momentum Indicators",
         "niche": "Quant, Pine Script v5 & Algorithmic Trading",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/pine-trend-ichimoku",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0109",
@@ -8935,9 +8935,9 @@
         "slug": "curl-convert-curl-to-csharp-http",
         "displayName": "Curl To Csharp Http - cURL to Fetch, Axios, Python & Go Converters",
         "niche": "REST, GraphQL, gRPC & API Client Engineering",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/curl-convert-curl-to-csharp-http",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0608",
@@ -9835,9 +9835,9 @@
         "slug": "json-to-ts-ts-enum-generator",
         "displayName": "Ts Enum Generator - JSON to Strict TypeScript Interfaces",
         "niche": "Data Serialization, Schema Validation & Types",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/json-to-ts-ts-enum-generator",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0708",
@@ -10735,9 +10735,9 @@
         "slug": "git-rebase-preserve-merges-rebase",
         "displayName": "Preserve Merges Rebase - Git Interactive Rebase & Squashing Command Helpers",
         "niche": "Advanced Git, Branching & Code Review Workflows",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/git-rebase-preserve-merges-rebase",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0808",
@@ -11635,9 +11635,9 @@
         "slug": "vitest-jest-before-each-cleanup",
         "displayName": "Before Each Cleanup - Vitest & Jest Unit Test Scaffolding & Mocks",
         "niche": "Testing, Benchmarking, Performance & DevTools",
-        "is_published": false,
+        "is_published": true,
         "openvsx_url": "https://open-vsx.org/extension/firstbabyreborn-ai/vitest-jest-before-each-cleanup",
-        "status": "SCHEDULED"
+        "status": "PUBLIC_LIVE"
       },
       {
         "id": "0908",
@@ -12477,7 +12477,7 @@
         "status": "SCHEDULED"
       }
     ],
-    "updated_at": "2026-11-23T13:15:43.023344+00:00"
+    "updated_at": "2026-11-24T01:09:48.687439+00:00"
   },
   "reborn_edge_apis_1000": {
     "total_apis": 1000,
