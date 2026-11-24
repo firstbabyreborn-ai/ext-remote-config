@@ -1,7 +1,7 @@
 {
   "total_master_bundles": 20,
   "total_endpoints": 1000,
-  "updated_at": "2026-11-23T02:06:11.169418+00:00",
+  "updated_at": "2026-11-24T01:10:14.946907+00:00",
   "master_bundles": [
     {
       "worker_idx": 1,
@@ -372,14 +372,14 @@
       "spec_filename": "master_all_active.json",
       "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/master_all_active.json",
       "logo_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/rebornedge_hub_logo.png",
-      "endpoints_count": 50,
+      "endpoints_count": 55,
       "pricing": {
         "BASIC": "$0 / mo",
         "PRO": "$7.99 / mo",
         "ULTRA": "$19.90 / mo",
         "MEGA": "$79.00 / mo"
       },
-      "updated_at": "2026-11-22T01:31:38.166486+00:00"
+      "updated_at": "2026-11-23T02:06:11.208094+00:00"
     },
     "iframe-embed-auditor-v2": {
       "id": "0016",
@@ -780,6 +780,56 @@
       "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-05",
       "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0055.json",
       "updated_at": "2026-11-23T02:06:01.546372+00:00"
+    },
+    "og-social-parser-06": {
+      "id": "0056",
+      "title": "Social OpenGraph & Schema Parser #06",
+      "slug": "og-social-parser-06",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-06",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-06",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0056.json",
+      "updated_at": "2026-11-24T01:09:54.419809+00:00"
+    },
+    "og-social-parser-07": {
+      "id": "0057",
+      "title": "Social OpenGraph & Schema Parser #07",
+      "slug": "og-social-parser-07",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-07",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-07",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0057.json",
+      "updated_at": "2026-11-24T01:09:56.536052+00:00"
+    },
+    "og-social-parser-08": {
+      "id": "0058",
+      "title": "Social OpenGraph & Schema Parser #08",
+      "slug": "og-social-parser-08",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-08",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-08",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0058.json",
+      "updated_at": "2026-11-24T01:09:57.422714+00:00"
+    },
+    "og-social-parser-09": {
+      "id": "0059",
+      "title": "Social OpenGraph & Schema Parser #09",
+      "slug": "og-social-parser-09",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-09",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-09",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0059.json",
+      "updated_at": "2026-11-24T01:09:58.280916+00:00"
+    },
+    "og-social-parser-10": {
+      "id": "0060",
+      "title": "Social OpenGraph & Schema Parser #10",
+      "slug": "og-social-parser-10",
+      "category": "Live Web, Scraping & SEO Intelligence",
+      "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-10",
+      "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-10",
+      "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0060.json",
+      "updated_at": "2026-11-24T01:09:59.728947+00:00"
     }
   },
   "url-to-markdown": {
@@ -949,14 +999,14 @@
     "spec_filename": "master_all_active.json",
     "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/master_all_active.json",
     "logo_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/rebornedge_hub_logo.png",
-    "endpoints_count": 55,
+    "endpoints_count": 60,
     "pricing": {
       "BASIC": "$0 / mo",
       "PRO": "$7.99 / mo",
       "ULTRA": "$19.90 / mo",
       "MEGA": "$79.00 / mo"
     },
-    "updated_at": "2026-11-23T02:06:11.208094+00:00"
+    "updated_at": "2026-11-24T01:10:15.104975+00:00"
   },
   "iframe-embed-auditor-v2": {
     "id": "0016",
@@ -1357,5 +1407,55 @@
     "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-05",
     "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0055.json",
     "updated_at": "2026-11-23T02:06:01.546372+00:00"
+  },
+  "og-social-parser-06": {
+    "id": "0056",
+    "title": "Social OpenGraph & Schema Parser #06",
+    "slug": "og-social-parser-06",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-06",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-06",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0056.json",
+    "updated_at": "2026-11-24T01:09:54.419809+00:00"
+  },
+  "og-social-parser-07": {
+    "id": "0057",
+    "title": "Social OpenGraph & Schema Parser #07",
+    "slug": "og-social-parser-07",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-07",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-07",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0057.json",
+    "updated_at": "2026-11-24T01:09:56.536052+00:00"
+  },
+  "og-social-parser-08": {
+    "id": "0058",
+    "title": "Social OpenGraph & Schema Parser #08",
+    "slug": "og-social-parser-08",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-08",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-08",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0058.json",
+    "updated_at": "2026-11-24T01:09:57.422714+00:00"
+  },
+  "og-social-parser-09": {
+    "id": "0059",
+    "title": "Social OpenGraph & Schema Parser #09",
+    "slug": "og-social-parser-09",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-09",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-09",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0059.json",
+    "updated_at": "2026-11-24T01:09:58.280916+00:00"
+  },
+  "og-social-parser-10": {
+    "id": "0060",
+    "title": "Social OpenGraph & Schema Parser #10",
+    "slug": "og-social-parser-10",
+    "category": "Live Web, Scraping & SEO Intelligence",
+    "endpoint_url": "https://reborn-edge-02.cccarlogen.workers.dev/v1/og-social-parser-10",
+    "rapidapi_url": "https://rapidapi.com/firstbabyreborn-ai/api/og-social-parser-10",
+    "spec_url": "https://firstbabyreborn-ai.github.io/ext-remote-config/openapi/api_0060.json",
+    "updated_at": "2026-11-24T01:09:59.728947+00:00"
   }
 }

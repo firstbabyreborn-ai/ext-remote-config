@@ -4051,6 +4051,356 @@
           }
         }
       }
+    },
+    "/v1/og-social-parser-06": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social OpenGraph & Schema Parser #06",
+        "description": "Live regex and DOM parser for OpenGraph, Twitter Cards, and schema.org microdata",
+        "operationId": "execute_og_social_parser_06",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://github.com"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0056",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "og-social-parser-06",
+                    "opengraph": {
+                      "title": "GitHub",
+                      "type": "website"
+                    }
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/og-social-parser-07": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social OpenGraph & Schema Parser #07",
+        "description": "Live regex and DOM parser for OpenGraph, Twitter Cards, and schema.org microdata",
+        "operationId": "execute_og_social_parser_07",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://github.com"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0057",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "og-social-parser-07",
+                    "opengraph": {
+                      "title": "GitHub",
+                      "type": "website"
+                    }
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/og-social-parser-08": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social OpenGraph & Schema Parser #08",
+        "description": "Live regex and DOM parser for OpenGraph, Twitter Cards, and schema.org microdata",
+        "operationId": "execute_og_social_parser_08",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://github.com"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0058",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "og-social-parser-08",
+                    "opengraph": {
+                      "title": "GitHub",
+                      "type": "website"
+                    }
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/og-social-parser-09": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social OpenGraph & Schema Parser #09",
+        "description": "Live regex and DOM parser for OpenGraph, Twitter Cards, and schema.org microdata",
+        "operationId": "execute_og_social_parser_09",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://github.com"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0059",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "og-social-parser-09",
+                    "opengraph": {
+                      "title": "GitHub",
+                      "type": "website"
+                    }
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/og-social-parser-10": {
+      "get": {
+        "tags": [
+          "Live Web, Scraping & SEO Intelligence"
+        ],
+        "summary": "Social OpenGraph & Schema Parser #10",
+        "description": "Live regex and DOM parser for OpenGraph, Twitter Cards, and schema.org microdata",
+        "operationId": "execute_og_social_parser_10",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "https://github.com"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "ok",
+                  "api_id": "0060",
+                  "latency_ms": 12,
+                  "data": {
+                    "endpoint": "og-social-parser-10",
+                    "opengraph": {
+                      "title": "GitHub",
+                      "type": "website"
+                    }
+                  },
+                  "meta": {
+                    "powered_by": "RebornEdge Global Edge Network (Cloudflare V8)",
+                    "portal": "https://firstbabyreborn-ai.github.io/ext-remote-config/"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error or invalid input parameters",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "INVALID_INPUT",
+                  "message": "Missing required parameter"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized - Missing RapidAPI or Bearer authorization headers",
+            "content": {
+              "application/json": {
+                "example": {
+                  "status": "error",
+                  "code": "UNAUTHORIZED",
+                  "message": "Provide RapidAPI subscription headers (X-RapidAPI-Key) or valid Bearer Workspace Token."
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
